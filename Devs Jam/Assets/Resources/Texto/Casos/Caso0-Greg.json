@@ -1,0 +1,52 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"MC",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Buenas Greg, ese es su nombre, ¿verdad?"
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"1",
+			"pjIzquierda":"0",
+			"texto":"SÍ SEÑOR POLICÍA LO JURO YO NO LO HICE SOLO FUi AL BAÑO Y ME ENCONTRÉ A MI MEJOR AMIGO TIRADO EN EL SUELO Y"
+		},
+		{
+			"nombrePJ":"MC",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Bueno bueno, vayamos por partes señor Greg. ¿Le han leído los nuevos derechos?"
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Sí..."
+		},
+		{
+			"nombrePJ":"MC",
+			"interrumpido":"1",
+			"pjIzquierda":"1",
+			"texto":"Bien entonces, se encontrará familiarizado con que lo mejor que puede hacer es cooperar. Si realmente es inocente sabrá qué"
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"SOY INOCENTE DE VERDAD ERA MI MEJOR AMIGO… era… era… mi mejor amigo..."
+		},
+		{
+			"nombrePJ":"MC",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Señor Greg, por favor, cuénteme qué pasó aquella noche."
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Ajiá"
+		}
+	]
+}

@@ -21,22 +21,18 @@ public class DialogoManager : MonoBehaviour
     public Text textoDialogo;
     public GameObject nombre1;
     public GameObject nombre2;
-    public DialogoBox[] frases;
-
-    public string nombreBoxPJ1;
-    public string nombreBoxPJ2;
+    DialogoEntrePersonajes info;
 
     private int posicionFrase;
+    string pathTexto = "Texto/Casos/";
+    public string nombreDialogo;
 
     // Start is called before the first frame update
     void Start()
     {
         posicionFrase = -1;
-        GameObject name1 = nombre1.transform.GetChild(0).gameObject;
-        name1.GetComponent<Text>().text = nombreBoxPJ1;
 
-        GameObject name2 = nombre2.transform.GetChild(0).gameObject;
-        name2.GetComponent<Text>().text = nombreBoxPJ2;
+        LoadJSON();
 
         EmpezarDialogo();
     }
@@ -49,7 +45,7 @@ public class DialogoManager : MonoBehaviour
 
     public void Continuar()
     {
-        if(posicionFrase >= frases.Length)
+        if(posicionFrase >= info.Frases.Count)
         {
             //Fin dialogo;
             return;
@@ -57,13 +53,16 @@ public class DialogoManager : MonoBehaviour
 
         posicionFrase++;
         //Cambiamos la imagen
-        if (frases[posicionFrase].pjIzquierda)
+        if (info.Frases[posicionFrase].pjIzquierda == 1)
         {
             GOPJ1.SetActive(true);
             GOPJ2.SetActive(false);
 
             nombre1.SetActive(true);
             nombre2.SetActive(false);
+
+            GameObject name1 = nombre1.transform.GetChild(0).gameObject;
+            name1.GetComponent<Text>().text = info.Frases[posicionFrase].nombrePJ;
         }
         else
         {
@@ -72,13 +71,14 @@ public class DialogoManager : MonoBehaviour
 
             nombre2.SetActive(true);
             nombre1.SetActive(false);
-        }
 
-        //Cambiamos el nombre
+            GameObject name2 = nombre2.transform.GetChild(0).gameObject;
+            name2.GetComponent<Text>().text = info.Frases[posicionFrase].nombrePJ;
+        }
 
         //Mostramos el texto
         StopAllCoroutines();
-        StartCoroutine(EscribirTexto(frases[posicionFrase].texto));
+        StartCoroutine(EscribirTexto(info.Frases[posicionFrase].texto));
     }
 
     IEnumerator EscribirTexto(string texto)
@@ -93,7 +93,7 @@ public class DialogoManager : MonoBehaviour
         }
 
         //¿Es interrumpido?
-        if (frases[posicionFrase].interrumpido)
+        if (info.Frases[posicionFrase].interrumpido == 1)
         {
             yield return new WaitForSeconds(0.5f);
             Continuar();
@@ -102,5 +102,12 @@ public class DialogoManager : MonoBehaviour
         {
             buttonContinuar.SetActive(true);
         }
+    }
+
+    private void LoadJSON()
+    {
+
+        var jsonModulos = Resources.Load<TextAsset>(pathTexto + nombreDialogo);
+        info = JsonUtility.FromJson<DialogoEntrePersonajes>(jsonModulos.ToString());
     }
 }
