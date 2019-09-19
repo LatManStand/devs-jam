@@ -1,0 +1,106 @@
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine.UI;
+using UnityEngine;
+
+[System.Serializable]
+public struct DialogoBox
+{
+    public bool interrumpido;
+    public bool pjIzquierda;
+    public string texto;
+}
+
+public class DialogoManager : MonoBehaviour
+{
+    public Sprite nombrePJ1;
+    public Sprite nombrePJ2;
+    public GameObject GOPJ1;
+    public GameObject GOPJ2;
+    public GameObject buttonContinuar;
+    public Text textoDialogo;
+    public GameObject nombre1;
+    public GameObject nombre2;
+    public DialogoBox[] frases;
+
+    public string nombreBoxPJ1;
+    public string nombreBoxPJ2;
+
+    private int posicionFrase;
+
+    // Start is called before the first frame update
+    void Start()
+    {
+        posicionFrase = -1;
+        GameObject name1 = nombre1.transform.GetChild(0).gameObject;
+        name1.GetComponent<Text>().text = nombreBoxPJ1;
+
+        GameObject name2 = nombre2.transform.GetChild(0).gameObject;
+        name2.GetComponent<Text>().text = nombreBoxPJ2;
+
+        EmpezarDialogo();
+    }
+
+    private void EmpezarDialogo()
+    {
+        //Corrutina para empezar unos segundos despues de haber iniciado la escena.
+        Continuar();
+    }
+
+    public void Continuar()
+    {
+        if(posicionFrase >= frases.Length)
+        {
+            //Fin dialogo;
+            return;
+        }
+
+        posicionFrase++;
+        //Cambiamos la imagen
+        if (frases[posicionFrase].pjIzquierda)
+        {
+            GOPJ1.SetActive(true);
+            GOPJ2.SetActive(false);
+
+            nombre1.SetActive(true);
+            nombre2.SetActive(false);
+        }
+        else
+        {
+            GOPJ1.SetActive(false);
+            GOPJ2.SetActive(true);
+
+            nombre2.SetActive(true);
+            nombre1.SetActive(false);
+        }
+
+        //Cambiamos el nombre
+
+        //Mostramos el texto
+        StopAllCoroutines();
+        StartCoroutine(EscribirTexto(frases[posicionFrase].texto));
+    }
+
+    IEnumerator EscribirTexto(string texto)
+    {
+        buttonContinuar.SetActive(false);
+        textoDialogo.text = "";
+
+        foreach (char letra in texto.ToCharArray())
+        {
+            textoDialogo.text += letra;
+            yield return null;
+        }
+
+        //¿Es interrumpido?
+        if (frases[posicionFrase].interrumpido)
+        {
+            yield return new WaitForSeconds(0.5f);
+            Continuar();
+        }
+        else
+        {
+            buttonContinuar.SetActive(true);
+        }
+    }
+}
