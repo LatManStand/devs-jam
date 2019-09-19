@@ -18,6 +18,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Investigacion.unity
     guid: a11681e68c0ef084486a45e14576a204
   - enabled: 1
-    path: Assets/Scenes/Dialogo.unity
+    path: Assets/Scenes/Interrogatorio.unity
     guid: 6248ae65c930c64488f86775565f24de
   m_configObjects: {}
