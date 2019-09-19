@@ -108,6 +108,6 @@ public class DialogoTextManager : MonoBehaviour
         aparecerIntro = false;
         textoTitulo.SetActive(false);
         yield return new WaitForSeconds(0.3f);
-        GameManager.instance.LoadScene("Mundo");
+        GameManager.instance.LoadScene("Interrogatorio");
     }
 }
