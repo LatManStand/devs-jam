@@ -10,27 +10,50 @@ public class DialogoTextManager : MonoBehaviour
     public Text textoDialogo;
     public GameObject nombre1;
     public List<string> frases;
-
+    [Space(5)]
     public string nombreBoxPJ1;
     public string nombreBoxPJ2;
-
+    [Space(5)]
     private int numCaso;
+    [Space(5)]
+    public GameObject boxDialogo;
+    public GameObject textoTitulo;
 
     string pathTexto = "Texto/Intro/Caso";
     private int posicionFrase;
     private string nombreCaso;
+
+    private bool aparecerIntro;
 
     // Start is called before the first frame update
     void Start()
     {
         posicionFrase = -1;
         nombre1.SetActive(true);
-
+        textoTitulo.SetActive(false);
+        aparecerIntro = false;
         numCaso = 0;
 
         LoadJSON();
 
         EmpezarDialogo();
+    }
+
+    private void Update()
+    {
+        if (aparecerIntro)
+        {
+            boxDialogo.SetActive(false);
+            textoTitulo.SetActive(true);
+
+
+            //if (textoTitulo.GetComponent<Animator>().GetBool("Fin"))
+            //{
+                //textoTitulo.SetActive(false);
+                //GameManager.instance.LoadScene("Mundo");
+            //}
+        }
+
     }
 
     private void EmpezarDialogo()
@@ -41,13 +64,14 @@ public class DialogoTextManager : MonoBehaviour
 
     public void Continuar()
     {
-        if(posicionFrase >= frases.Count)
+        Debug.Log(posicionFrase);
+        posicionFrase++;
+        if (posicionFrase >= frases.Count)
         {
             //Fin dialogo;
+            aparecerIntro = true;
             return;
         }
-
-        posicionFrase++;
 
         //Mostramos el texto
         StopAllCoroutines();
