@@ -46,12 +46,7 @@ public class DialogoTextManager : MonoBehaviour
             boxDialogo.SetActive(false);
             textoTitulo.SetActive(true);
 
-
-            //if (textoTitulo.GetComponent<Animator>().GetBool("Fin"))
-            //{
-                //textoTitulo.SetActive(false);
-                //GameManager.instance.LoadScene("Mundo");
-            //}
+            StartCoroutine(loadNextScenne());
         }
 
     }
@@ -64,7 +59,6 @@ public class DialogoTextManager : MonoBehaviour
 
     public void Continuar()
     {
-        Debug.Log(posicionFrase);
         posicionFrase++;
         if (posicionFrase >= frases.Count)
         {
@@ -99,6 +93,16 @@ public class DialogoTextManager : MonoBehaviour
         InfoIntroCaso info = JsonUtility.FromJson<InfoIntroCaso>(jsonModulos.ToString());
 
         nombreCaso = info.NombreCaso;
+        textoTitulo.GetComponent<Text>().text = info.NombreCaso;
         frases = info.Frases;
+    }
+
+    IEnumerator loadNextScenne()
+    {
+        yield return new WaitForSeconds(4.3f);
+        aparecerIntro = false;
+        textoTitulo.SetActive(false);
+        yield return new WaitForSeconds(0.3f);
+        GameManager.instance.LoadScene("Mundo");
     }
 }
