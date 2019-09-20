@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class DialogoTextManager : MonoBehaviour
 {
+    public AudioSource audio;
     public GameObject buttonContinuar;
     public Text textoDialogo;
     public GameObject nombre1;

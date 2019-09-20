@@ -301,6 +301,11 @@ PrefabInstance:
       propertyPath: m_Name
       value: SistemaDialogoTexto
       objectReference: {fileID: 0}
+    - target: {fileID: 6953749302391084519, guid: 9c777aa6ed194464e821c43be8b5b665,
+        type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     - target: {fileID: 160751001870732384, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_LocalPosition.x
@@ -441,15 +446,15 @@ PrefabInstance:
       propertyPath: boxDialogo
       value: 
       objectReference: {fileID: 163048525}
+    - target: {fileID: 1626617380940794067, guid: 9c777aa6ed194464e821c43be8b5b665,
+        type: 3}
+      propertyPath: audio
+      value: 
+      objectReference: {fileID: 0}
     - target: {fileID: 1132395983541404171, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_AnchoredPosition.y
       value: 42
-      objectReference: {fileID: 0}
-    - target: {fileID: 6953749302391084519, guid: 9c777aa6ed194464e821c43be8b5b665,
-        type: 3}
-      propertyPath: m_IsActive
-      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c777aa6ed194464e821c43be8b5b665, type: 3}
