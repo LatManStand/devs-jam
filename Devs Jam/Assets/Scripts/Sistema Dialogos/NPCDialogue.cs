@@ -31,6 +31,7 @@ public class NPCDialogue : MonoBehaviour
         {
             other.gameObject.GetComponent<WorldTalker>().setLastNPC(null);
             bur.enabled = false;
+            mes.enabled = false;
         }
     }
 
@@ -38,7 +39,7 @@ public class NPCDialogue : MonoBehaviour
 
     public void talk()
     {
-        bur.enabled = false;
+        bur.enabled = !bur.enabled;
         mes.enabled = !mes.enabled;
     }
 
