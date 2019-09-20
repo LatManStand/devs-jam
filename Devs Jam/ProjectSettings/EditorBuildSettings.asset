@@ -29,4 +29,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Oficina.unity
     guid: 12c9557704b83bf40ae8b6f2d875585a
+  - enabled: 1
+    path: Assets/Scenes/IntroGame.unity
+    guid: 51d8e83f0ba17b14b934953a48cc056f
   m_configObjects: {}

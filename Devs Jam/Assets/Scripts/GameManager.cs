@@ -10,6 +10,12 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
 
+    private int numCaso;
+    //Caso 1
+    private bool tienePistaBedel;
+    
+    //Caso 2
+
 
     //Awake is always called before any Start functions
     void Awake()
@@ -50,6 +56,11 @@ public class GameManager : MonoBehaviour
 
     //-------------------- FUNCTIONS --------------------
 
+    public int getNumCaso()
+    {
+        return numCaso;
+    }
+
     //Called to start de game
     public void InitGame()
     {
@@ -58,6 +69,10 @@ public class GameManager : MonoBehaviour
     //Called to start de game
     public void StartGame()
     {
+        //Inicializamos los datos
+        numCaso = 0;
+
+        LoadScene("IntroGame");
     }
 
     //Called when the player die
@@ -69,11 +84,6 @@ public class GameManager : MonoBehaviour
     {
         SaveData();
         Application.Quit();
-    }
-
-    //Called when the player decide to go back to the menu
-    public void BackToMenu()
-    {
     }
 
     public void LoadScene(string nameLevel)
@@ -92,12 +102,10 @@ public class GameManager : MonoBehaviour
         }
     }
 
-
     public void SaveData()
     {
 
         PlayerPrefs.Save();
-
     }
 
     public void LoadData()
@@ -114,20 +122,5 @@ public class GameManager : MonoBehaviour
     public void loadDialogo()
     {
         LoadScene("Dialogo");
-    }
-
-    public void loadInvestigacion()
-    {
-        LoadScene("Investigacion");
-    }
-
-    public void loadMenuPrincipal()
-    {
-        LoadScene("Menu Principal");
-    }
-
-    public void loadMundo()
-    {
-        LoadScene("Mundo");
     }
 }
