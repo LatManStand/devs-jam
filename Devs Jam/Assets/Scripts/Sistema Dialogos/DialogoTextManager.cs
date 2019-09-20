@@ -6,7 +6,6 @@ using UnityEngine;
 
 public class DialogoTextManager : MonoBehaviour
 {
-    public AudioSource audio;
     public GameObject buttonContinuar;
     public Text textoDialogo;
     public GameObject nombre1;
@@ -33,7 +32,7 @@ public class DialogoTextManager : MonoBehaviour
         nombre1.SetActive(true);
         textoTitulo.SetActive(false);
         aparecerIntro = false;
-        numCaso = 0;
+        numCaso = GameManager.instance.getNumCaso();
 
         LoadJSON();
 
