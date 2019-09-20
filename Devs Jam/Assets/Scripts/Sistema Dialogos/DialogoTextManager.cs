@@ -49,6 +49,11 @@ public class DialogoTextManager : MonoBehaviour
             StartCoroutine(loadNextScenne());
         }
 
+        if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp(KeyCode.Space))
+        {
+            Continuar();
+        }
+
     }
 
     private void EmpezarDialogo()
