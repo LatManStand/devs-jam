@@ -183,19 +183,19 @@ MonoBehaviour:
     m_PersistentCalls:
       m_Calls: []
   m_FontData:
-    m_Font: {fileID: 12800000, guid: a9fd4d37cedf3db4a8ec33a58e771ea5, type: 3}
-    m_FontSize: 60
-    m_FontStyle: 1
+    m_Font: {fileID: 12800000, guid: 203364a62e2679043ad0e722a1db6e4f, type: 3}
+    m_FontSize: 170
+    m_FontStyle: 0
     m_BestFit: 1
     m_MinSize: 0
-    m_MaxSize: 150
+    m_MaxSize: 200
     m_Alignment: 4
     m_AlignByGeometry: 0
     m_RichText: 1
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 2
-  m_Text: 'CASO 2 : BLA BLA Y BLA'
+  m_Text: 'CASO 2: BLA BLA Y BLA'
 --- !u!222 &589625470
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -460,12 +460,12 @@ PrefabInstance:
         type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: a9fd4d37cedf3db4a8ec33a58e771ea5,
+      objectReference: {fileID: 12800000, guid: 203364a62e2679043ad0e722a1db6e4f,
         type: 3}
     - target: {fileID: 937355983169193198, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 40
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 937355983169193198, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
@@ -481,18 +481,18 @@ PrefabInstance:
     - target: {fileID: 937355983169193198, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_FontData.m_LineSpacing
-      value: 2
+      value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 937355983169193198, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_FontData.m_MaxSize
-      value: 50
+      value: 75
       objectReference: {fileID: 0}
     - target: {fileID: 7758745358955616859, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: 4277f957dac12d24dbc8a9654536707b,
+      objectReference: {fileID: 12800000, guid: 203364a62e2679043ad0e722a1db6e4f,
         type: 3}
     - target: {fileID: 7758745358955616859, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
@@ -512,23 +512,43 @@ PrefabInstance:
     - target: {fileID: 7758745358955616859, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_FontData.m_MaxSize
-      value: 60
+      value: 65
+      objectReference: {fileID: 0}
+    - target: {fileID: 7758745358955616859, guid: 9c777aa6ed194464e821c43be8b5b665,
+        type: 3}
+      propertyPath: m_FontData.m_FontStyle
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 5063103042608398537, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_FontData.m_Font
       value: 
-      objectReference: {fileID: 12800000, guid: a9fd4d37cedf3db4a8ec33a58e771ea5,
+      objectReference: {fileID: 12800000, guid: 203364a62e2679043ad0e722a1db6e4f,
         type: 3}
     - target: {fileID: 5063103042608398537, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_FontData.m_FontSize
-      value: 18
+      value: 40
       objectReference: {fileID: 0}
     - target: {fileID: 5063103042608398537, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_FontData.m_MinSize
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063103042608398537, guid: 9c777aa6ed194464e821c43be8b5b665,
+        type: 3}
+      propertyPath: m_FontData.m_MaxSize
+      value: 45
+      objectReference: {fileID: 0}
+    - target: {fileID: 5063103042608398537, guid: 9c777aa6ed194464e821c43be8b5b665,
+        type: 3}
+      propertyPath: m_FontData.m_AlignByGeometry
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 9166163494859838741, guid: 9c777aa6ed194464e821c43be8b5b665,
+        type: 3}
+      propertyPath: m_RaycastTarget
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 9c777aa6ed194464e821c43be8b5b665, type: 3}
