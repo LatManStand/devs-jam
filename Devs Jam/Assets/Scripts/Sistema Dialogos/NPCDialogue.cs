@@ -5,23 +5,24 @@ using UnityEngine;
 public class NPCDialogue : MonoBehaviour
 {
 
-    private SpriteRenderer bur;
-    private MeshRenderer mes;
+    private Bocadillo hablame;
+    private Bocadillo texto;
     // Start is called before the first frame update
     void Start()
     {
-        bur = transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>();
-        bur.enabled = false;
-        mes = transform.GetChild(1).gameObject.GetComponent<MeshRenderer>();
-        mes.enabled = false;
+        hablame = transform.GetChild(0).gameObject.GetComponent<Bocadillo>();
+        hablame.esconde();
+        texto = transform.GetChild(1).gameObject.GetComponent<Bocadillo>();
+        texto.esconde();
     }
 
     private void OnTriggerEnter2D(Collider2D other)
     {
         if (other.gameObject.CompareTag("Player"))
         {
+
             other.gameObject.GetComponent<WorldTalker>().setLastNPC(this.gameObject);
-            bur.enabled = true;
+            hablame.muestra();
         }
     }
 
@@ -30,8 +31,7 @@ public class NPCDialogue : MonoBehaviour
         if (other.gameObject.CompareTag("Player"))
         {
             other.gameObject.GetComponent<WorldTalker>().setLastNPC(null);
-            bur.enabled = false;
-            mes.enabled = false;
+            hablame.esconde();
         }
     }
 
@@ -39,8 +39,8 @@ public class NPCDialogue : MonoBehaviour
 
     public void talk()
     {
-        bur.enabled = !bur.enabled;
-        mes.enabled = !mes.enabled;
+        hablame.esconde();
+        texto.actua();
     }
 
 
