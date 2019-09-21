@@ -4,33 +4,28 @@ using UnityEngine;
 
 public class Clickable : MonoBehaviour
 {
-    private SpriteRenderer bur;
+    private Bocadillo hablame;
     // Start is called before the first frame update
     void Start()
     {
-        bur = transform.GetChild(0).gameObject.GetComponent<SpriteRenderer>();
-        bur.enabled = false;
+        hablame = transform.GetChild(0).gameObject.GetComponent<Bocadillo>();
+        hablame.esconde();
     }
-
-    // Update is called once per frame
-    void Update()
-    {
-
-    }
-
+    
     private void OnMouseEnter()
     {
-        bur.enabled = true;
+        hablame.muestra();
 
     }
 
     private void OnMouseExit()
     {
-        bur.enabled = false;
+        hablame.esconde();
     }
 
     private void OnMouseUpAsButton()
     {
-        Debug.Log("Se habladuriza");
+        hablame.esconde();
+        // Saca el dialogo
     }
 }

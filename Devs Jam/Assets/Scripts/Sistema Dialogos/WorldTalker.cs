@@ -16,19 +16,20 @@ public class WorldTalker : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (lastNPC != null)
-        {
-            if (Input.GetKeyDown(KeyCode.Return))
-            {
-                lastNPC.gameObject.GetComponent<NPCDialogue>().talk();
-            }
-        }
 
         if (lastDoor != null)
         {
             if (Input.GetKeyDown(KeyCode.Return))
             {
                 lastDoor.gameObject.GetComponent<Puerta>().abre();
+            }
+        }
+
+        if (lastNPC != null)
+        {
+            if (Input.GetKeyDown(KeyCode.Return))
+            {
+                lastNPC.gameObject.GetComponent<NPCDialogue>().talk();
             }
         }
     }
