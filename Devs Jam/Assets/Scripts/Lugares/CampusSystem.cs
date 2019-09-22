@@ -45,4 +45,9 @@ public class CampusSystem : MonoBehaviour
         clase.SetActive(false);
         comedor.SetActive(false);
     }
+
+    public void pasarDia()
+    {
+        GameManager.instance.pasarDia();
+    }
 }
