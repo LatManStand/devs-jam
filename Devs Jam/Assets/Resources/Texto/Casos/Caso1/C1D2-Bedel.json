@@ -1,0 +1,65 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Buenas, señora. ¿Le importaría que le hiciera unas preguntas?"
+		},
+		{
+			"nombrePJ":"BEDEL",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Claro que no, señor policía. ¿Qué ocurre?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"La clase donde ocurrió el asesinato estaba cerrada con llave, según el informe."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Quiénes tenían acceso a la llave la noche del suceso?."
+		},
+		{
+			"nombrePJ":"BEDEL",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"El señor Connor Watts. Me la pidió para poder practicar para su campeonato científico."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(Watts...)"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Le devolvió la llave?"
+		},
+		{
+			"nombrePJ":"BEDEL",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"La verdad es que no. Hace días que no le veo."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Vale, muchas gracias."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(Mandaré que revisen su taquilla y su habitación)"
+		}
+	]
+}
+
