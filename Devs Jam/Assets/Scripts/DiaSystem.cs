@@ -24,6 +24,7 @@ public class DiaSystem : MonoBehaviour
             {
                 Debug.Log("Aumentamos el día");
                 GameManager.instance.aumentarDia();
+                Debug.Log("Guardarmos");
                 GameManager.instance.SaveData();
             }
         }

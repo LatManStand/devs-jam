@@ -13,7 +13,6 @@ public class ButtonAnimationMenuLoadScript : MonoBehaviour
 
     private void Start()
     {
-        texto1.text = "Nueva partida";
         texto2.text = "";
 
         int numCaso = GameManager.instance.existeSlotPartidaGuardada(slot);
@@ -21,13 +20,13 @@ public class ButtonAnimationMenuLoadScript : MonoBehaviour
         {
             switch (numCaso)
             {
-                case 0:
+                case 1:
                     texto1.text = "Caso 1: Greg y el robo";
                     break;
-                case 1:
+                case 2:
                     texto1.text = "Caso 2: Tonny y la violación";
                     break;
-                case 2:
+                case 3:
                     texto1.text = "Caso 3: Salvino";
                     break;
             }
@@ -36,6 +35,21 @@ public class ButtonAnimationMenuLoadScript : MonoBehaviour
 
         barra1.SetActive(false);
         barra2.SetActive(false);
+    }
+
+    private void OnEnable()
+    {
+        if (GameManager.instance)
+        {
+            if (GameManager.instance.getIsCargarPartida())
+            {
+                texto1.text = "No hay partida guardada";
+            }
+            else
+            {
+                texto1.text = "Nueva partida";
+            }
+        }
     }
 
     public void ActionButton()
@@ -50,8 +64,7 @@ public class ButtonAnimationMenuLoadScript : MonoBehaviour
         }
         else
         {
-            GameManager.instance.setSlot(slot);
-            GameManager.instance.StartGame();
+            GameManager.instance.StartGame(slot);
         }
     }
 

@@ -105,14 +105,16 @@ public class GameManager : MonoBehaviour
 
 
     //Called to start de game
-    public void StartGame()
+    public void StartGame(int _slot)
     {
         //Inicializamos los datos
-        slot = 0;
-        numCaso = 0;
+        slot = _slot;
+        numCaso = 1;
         numDia = 0;
         tienePistaBedel = false;
         encerroSalvino = false;
+
+        SaveData();
 
         LoadScene("IntroGame");
     }
@@ -155,7 +157,7 @@ public class GameManager : MonoBehaviour
 
     public int existeSlotPartidaGuardada(int _slot)
     {
-        return numCaso = PlayerPrefs.GetInt("numCaso" + slot);
+        return PlayerPrefs.GetInt("numCaso" + _slot);
     }
 
     public int getDiaPartidaGuardada(int _slot)
