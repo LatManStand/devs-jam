@@ -757,7 +757,7 @@ PrefabInstance:
     - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
       propertyPath: nombreDialogo
-      value: C0D1-Lili
+      value: -Lili
       objectReference: {fileID: 0}
     - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
@@ -964,14 +964,14 @@ PrefabInstance:
       propertyPath: m_FontData.m_MaxSize
       value: 65
       objectReference: {fileID: 0}
+    - target: {fileID: 3487362362696516484, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: m_Texture
+      value: 
+      objectReference: {fileID: 2800000, guid: bab9ceb151c721b41ab718a072fbb844, type: 3}
     - target: {fileID: 3055860354995516145, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
       propertyPath: m_Enabled
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 3487362362465801592, guid: 29423bcc4d6ef1f458011d683a3b3151,
-        type: 3}
-      propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
     - target: {fileID: 3487362362612042668, guid: 29423bcc4d6ef1f458011d683a3b3151,
@@ -979,11 +979,11 @@ PrefabInstance:
       propertyPath: m_IsActive
       value: 1
       objectReference: {fileID: 0}
-    - target: {fileID: 3487362362696516484, guid: 29423bcc4d6ef1f458011d683a3b3151,
+    - target: {fileID: 3487362362465801592, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
-      propertyPath: m_Texture
-      value: 
-      objectReference: {fileID: 2800000, guid: bab9ceb151c721b41ab718a072fbb844, type: 3}
+      propertyPath: m_IsActive
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29423bcc4d6ef1f458011d683a3b3151, type: 3}
 --- !u!1 &1166491894

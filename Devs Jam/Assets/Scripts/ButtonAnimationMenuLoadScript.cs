@@ -16,10 +16,21 @@ public class ButtonAnimationMenuLoadScript : MonoBehaviour
         texto1.text = "Nueva partida";
         texto2.text = "";
 
-        if (GameManager.instance.existeSlotPartidaGuardada(slot) != 0)
+        int numCaso = GameManager.instance.existeSlotPartidaGuardada(slot);
+        if (numCaso != 0)
         {
-            Debug.Log(GameManager.instance.existeSlotPartidaGuardada(slot));
-            texto1.text = "Caso N: Nombre del caso";
+            switch (numCaso)
+            {
+                case 0:
+                    texto1.text = "Caso 1: Greg y el robo";
+                    break;
+                case 1:
+                    texto1.text = "Caso 2: Tonny y la violación";
+                    break;
+                case 2:
+                    texto1.text = "Caso 3: Salvino";
+                    break;
+            }
             texto2.text = "Día " + GameManager.instance.getDiaPartidaGuardada(slot);
         }
 

@@ -20,9 +20,8 @@ public class DialogoTextManager : MonoBehaviour
     public GameObject boxDialogo;
     public GameObject textoTitulo;
 
-    string pathTexto = "Texto/Intro/Caso";
+    public string pathTexto = "Texto/Intro/Caso";
     private int posicionFrase;
-    private string nombreCaso;
 
     private bool aparecerIntro;
 
@@ -98,7 +97,6 @@ public class DialogoTextManager : MonoBehaviour
         var jsonModulos = Resources.Load<TextAsset>(pathTexto + numCaso);
         InfoIntroCaso info = JsonUtility.FromJson<InfoIntroCaso>(jsonModulos.ToString());
 
-        nombreCaso = info.NombreCaso;
         textoTitulo.GetComponent<Text>().text = info.NombreCaso;
         frases = info.Frases;
     }

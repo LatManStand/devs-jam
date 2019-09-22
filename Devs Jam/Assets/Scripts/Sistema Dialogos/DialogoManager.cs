@@ -25,7 +25,7 @@ public class DialogoManager : MonoBehaviour
     DialogoEntrePersonajes info;
 
     private int posicionFrase;
-    string pathTexto = "Texto/Casos/";
+    public string pathTexto = "Texto/Casos/Caso";
     public string nombreDialogo;
 
 
@@ -133,8 +133,9 @@ public class DialogoManager : MonoBehaviour
 
     private void LoadJSON()
     {
-
-        var jsonModulos = Resources.Load<TextAsset>(pathTexto + nombreDialogo);
+        int numCaso = GameManager.instance.getNumCaso();
+        int numDia = GameManager.instance.getDia();
+        var jsonModulos = Resources.Load<TextAsset>(pathTexto + numCaso + "/C" + numCaso + "D" + numDia + nombreDialogo);
         info = JsonUtility.FromJson<DialogoEntrePersonajes>(jsonModulos.ToString());
     }
 

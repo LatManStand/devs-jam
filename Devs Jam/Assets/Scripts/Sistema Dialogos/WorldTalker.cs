@@ -19,7 +19,7 @@ public class WorldTalker : MonoBehaviour
 
         if (lastDoor != null)
         {
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0))
             {
                 lastDoor.gameObject.GetComponent<Puerta>().abre();
             }
@@ -27,7 +27,7 @@ public class WorldTalker : MonoBehaviour
 
         if (lastNPC != null)
         {
-            if (Input.GetKeyDown(KeyCode.Return))
+            if (Input.GetKeyDown(KeyCode.Return) || Input.GetMouseButtonDown(0))
             {
                 lastNPC.gameObject.GetComponent<NPCDialogue>().talk();
             }
