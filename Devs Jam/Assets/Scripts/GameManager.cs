@@ -9,7 +9,7 @@ using UnityEngine.SceneManagement;
 public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
-
+    private int slot;
     private int numCaso;
     private int numDia;
     //Caso 1
@@ -20,6 +20,9 @@ public class GameManager : MonoBehaviour
 
     //Caso 3
     private bool encerroSalvino;
+
+    //Para el menu principal
+    private bool isCargarPartida;
 
     //Awake is always called before any Start functions
     void Awake()
@@ -42,6 +45,7 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
+        isCargarPartida = false;
     }
 
     // Update is called once per frame
@@ -55,6 +59,19 @@ public class GameManager : MonoBehaviour
     }
 
     //-------------------- FUNCTIONS --------------------
+    public bool getIsCargarPartida()
+    {
+        return isCargarPartida;
+    }
+    public void setIsCargarPartida(bool value)
+    {
+        isCargarPartida = value;
+    }
+
+    public void setSlot(int _slot)
+    {
+        slot = _slot;
+    }
 
     public int getNumCaso()
     {
@@ -90,6 +107,7 @@ public class GameManager : MonoBehaviour
     public void StartGame()
     {
         //Inicializamos los datos
+        slot = 0;
         numCaso = 0;
         numDia = 0;
         tienePistaBedel = false;
@@ -122,19 +140,26 @@ public class GameManager : MonoBehaviour
 
     public void SaveData()
     {
-
+        PlayerPrefs.SetInt("numCaso" + slot, numCaso);
+        PlayerPrefs.SetInt("numDia" + slot, numDia);
         PlayerPrefs.Save();
     }
 
-    public void LoadData()
+    public void LoadData(int _slot)
     {
-        PlayerPrefs.GetString("");
+        slot = _slot;
+        numCaso = PlayerPrefs.GetInt("numCaso" + slot);
+        numDia = PlayerPrefs.GetInt("numDia" + slot);
     }
 
-    public void ChangeData()
+    public int existeSlotPartidaGuardada(int _slot)
     {
-        SaveData();
-        LoadData();
+        return numCaso = PlayerPrefs.GetInt("numCaso" + slot);
+    }
+
+    public int getDiaPartidaGuardada(int _slot)
+    {
+        return PlayerPrefs.GetInt("numDia" + slot);
     }
 
     public void loadDialogo()
@@ -144,6 +169,6 @@ public class GameManager : MonoBehaviour
 
     public void pasarDia()
     {
-        //Pasar el dia
+        LoadScene("CasaNoche");
     }
 }

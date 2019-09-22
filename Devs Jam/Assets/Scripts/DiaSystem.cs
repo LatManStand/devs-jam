@@ -11,16 +11,21 @@ public class DiaSystem : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        GameManager.instance.aumentarDia();
+        if (!GameManager.instance.getIsCargarPartida())
+        {
+            Debug.Log("Aumentamos el día");
+            GameManager.instance.aumentarDia();
+            GameManager.instance.SaveData();
+        }
         titulo.GetComponent<Text>().text = "Día " + GameManager.instance.getDia();
         StartCoroutine(Animation());
     }
 
     IEnumerator Animation()
     {
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(0.3f);
         titulo.SetActive(true);
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(3.7f);
         titulo.SetActive(false);
         yield return new WaitForSeconds(0.5f);
 

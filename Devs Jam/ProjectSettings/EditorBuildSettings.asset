@@ -39,6 +39,9 @@ EditorBuildSettings:
     path: Assets/Scenes/Savino.unity
     guid: ff95c5f275b897942bc320314c53318a
   - enabled: 1
+    path: Assets/Scenes/CasaNoche.unity
+    guid: 1ce63a73f0dd8b544bd5b9f4bc5cfae8
+  - enabled: 1
     path: Assets/Scenes/Loli.unity
     guid: b902cf400c4dc83429ed3fba97ed1694
   m_configObjects: {}

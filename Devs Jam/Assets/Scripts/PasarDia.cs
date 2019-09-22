@@ -8,5 +8,10 @@ public class PasarDia : MonoBehaviour
     {
         GameManager.instance.pasarDia();
     }  
+
+    public void MenuPrincipal()
+    {
+        GameManager.instance.LoadScene("Menu Principal");
+    }
     
 }
