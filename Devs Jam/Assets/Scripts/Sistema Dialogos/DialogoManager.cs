@@ -27,6 +27,13 @@ public class DialogoManager : MonoBehaviour
     string pathTexto = "Texto/Casos/";
     public string nombreDialogo;
 
+
+    // ------------------
+    public float countdownValue;
+    public GameObject canvas;
+    private float currCountdownValue;
+    private bool corutina;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -35,12 +42,27 @@ public class DialogoManager : MonoBehaviour
         LoadJSON();
 
         EmpezarDialogo();
+
+        corutina = true;
+    }
+
+
+    private void Update()
+    {
+        if (!corutina)
+        {
+            if (Input.GetKeyUp(KeyCode.Return) || Input.GetKeyUp(KeyCode.Space))
+            {
+                Continuar();
+            }
+        }
     }
 
     private void EmpezarDialogo()
     {
         //Corrutina para empezar unos segundos despues de haber iniciado la escena.
-        Continuar();
+        StartCoroutine(StartCountdown());
+        //Continuar();
     }
 
     public void Continuar()
@@ -83,6 +105,7 @@ public class DialogoManager : MonoBehaviour
 
     IEnumerator EscribirTexto(string texto)
     {
+        corutina = true;
         buttonContinuar.SetActive(false);
         textoDialogo.text = "";
 
@@ -102,6 +125,7 @@ public class DialogoManager : MonoBehaviour
         {
             buttonContinuar.SetActive(true);
         }
+        corutina = false;
     }
 
     private void LoadJSON()
@@ -109,5 +133,20 @@ public class DialogoManager : MonoBehaviour
 
         var jsonModulos = Resources.Load<TextAsset>(pathTexto + nombreDialogo);
         info = JsonUtility.FromJson<DialogoEntrePersonajes>(jsonModulos.ToString());
+    }
+
+    public IEnumerator StartCountdown()
+    {
+        corutina = true;
+        canvas.GetComponent<Canvas>().enabled = false;
+        currCountdownValue = countdownValue;
+        while (currCountdownValue > 0)
+        {
+            yield return new WaitForSeconds(0.5f);
+            currCountdownValue--;
+        }
+        Continuar();
+        canvas.GetComponent<Canvas>().enabled = true;
+        corutina = false;
     }
 }

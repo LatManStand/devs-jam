@@ -486,7 +486,7 @@ PrefabInstance:
     - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
       propertyPath: nombreDialogo
-      value: C0D1-Oficina
+      value: C0D1-Loli
       objectReference: {fileID: 0}
     - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
@@ -502,7 +502,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nombrePJ2
       value: 
-      objectReference: {fileID: 21300000, guid: 1a1034698ab78764eab0244b0aa1bd63,
+      objectReference: {fileID: 21300000, guid: e66f56cbf249b5a4b9f34b40e186fbf7,
         type: 3}
     - target: {fileID: 3487362362612042669, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
@@ -712,6 +712,6 @@ PrefabInstance:
         type: 3}
       propertyPath: m_Texture
       value: 
-      objectReference: {fileID: 2800000, guid: 1a1034698ab78764eab0244b0aa1bd63, type: 3}
+      objectReference: {fileID: 2800000, guid: e66f56cbf249b5a4b9f34b40e186fbf7, type: 3}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 29423bcc4d6ef1f458011d683a3b3151, type: 3}

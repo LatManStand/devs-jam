@@ -1,0 +1,22 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¡Lili! ¡Despìerta o llegarás tarde a clase!"
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Vooooooy..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(Esta chica...)"
+		}
+	]
+}

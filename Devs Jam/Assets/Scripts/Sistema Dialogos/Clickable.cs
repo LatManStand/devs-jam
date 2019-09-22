@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class Clickable : MonoBehaviour
 {
+    public GameObject dialogo;
     private Bocadillo hablame;
     // Start is called before the first frame update
     void Start()
@@ -11,11 +12,13 @@ public class Clickable : MonoBehaviour
         hablame = transform.GetChild(0).gameObject.GetComponent<Bocadillo>();
         hablame.esconde();
     }
-    
+
     private void OnMouseEnter()
     {
-        hablame.muestra();
-
+        if (!dialogo.activeInHierarchy)
+        {
+            hablame.muestra();
+        }
     }
 
     private void OnMouseExit()
@@ -25,7 +28,11 @@ public class Clickable : MonoBehaviour
 
     private void OnMouseUpAsButton()
     {
-        hablame.esconde();
-        // Saca el dialogo
+        if (!dialogo.activeInHierarchy)
+        {
+            hablame.esconde();
+
+            dialogo.SetActive(true);
+        }
     }
 }

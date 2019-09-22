@@ -1,0 +1,71 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Hey Loli, ponme un café para llevar, por favor."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"1",
+			"pjIzquierda":"0",
+			"texto":"Marchaando, Rick! ¿Todo bien con la pequeña Lili?"
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Por casualidad, ¿tú llevas el caso del chico ese?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Qué chico?"
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¿No te has enterado? Un muchacho asesinó a su compañero en la fiesta de otoño. Dicen que vendía droga. Sería un problema de drogas seguro."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"1",
+			"pjIzquierda":"0",
+			"texto":"Bueno yo es que no me lo creo, ya sabes, lo que va diciendo la gente por ahí, pero una amiga de una amiga de una amiga me comentó que..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Lili, recuerda que no puedo comentar nada y menos si llevara el caso. Lo siento. No te preocupes, se resolverá enseguida."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Sí sí. Yo confío plenamente en la policía, siempre encontráis a los culpables. Pero bueno, ya sabes, ¡si te enteras de algo avísame!"
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"1",
+			"pjIzquierda":"0",
+			"texto":"Siempre es bueno que luego se van contando cosas que no son verdad y ..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"*Dejas el dinero en la barra, coges el café y te marchas*"
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Mira que dejarme con la palabra en la boca..."
+		}
+	]
+}
+

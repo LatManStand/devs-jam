@@ -1,19 +1,19 @@
 {
 	"Frases":[
 		{
-			"nombrePJ":"MC",
+			"nombrePJ":"RICK FOX",
 			"interrumpido":"0",
 			"pjIzquierda":"1",
-			"texto":"Buenas Greg, ese es su nombre, ¿verdad?"
+			"texto":"Buenas, Greg. Ese es su nombre, ¿verdad?"
 		},
 		{
 			"nombrePJ":"GREG",
 			"interrumpido":"1",
 			"pjIzquierda":"0",
-			"texto":"SÍ SEÑOR POLICÍA LO JURO YO NO LO HICE SOLO FUi AL BAÑO Y ME ENCONTRÉ A MI MEJOR AMIGO TIRADO EN EL SUELO Y"
+			"texto":"SÍ SEÑOR POLICÍA LO JURO YO NO LO HICE SOLO FUI AL BAÑO Y ME ENCONTRÉ A MI MEJOR AMIGO TIRADO EN EL SUELO Y..."
 		},
 		{
-			"nombrePJ":"MC",
+			"nombrePJ":"RICK FOX",
 			"interrumpido":"0",
 			"pjIzquierda":"1",
 			"texto":"Bueno bueno, vayamos por partes señor Greg. ¿Le han leído los nuevos derechos?"
@@ -25,10 +25,10 @@
 			"texto":"Sí..."
 		},
 		{
-			"nombrePJ":"MC",
+			"nombrePJ":"RICK FOX",
 			"interrumpido":"1",
 			"pjIzquierda":"1",
-			"texto":"Bien entonces, se encontrará familiarizado con que lo mejor que puede hacer es cooperar. Si realmente es inocente sabrá qué"
+			"texto":"Bien entonces, se encontrará familiarizado con que lo mejor que puede hacer es cooperar. Si realmente es inocente sabrá qué..."
 		},
 		{
 			"nombrePJ":"GREG",
@@ -37,7 +37,7 @@
 			"texto":"SOY INOCENTE DE VERDAD ERA MI MEJOR AMIGO… era… era… mi mejor amigo..."
 		},
 		{
-			"nombrePJ":"MC",
+			"nombrePJ":"RICK FOX",
 			"interrumpido":"0",
 			"pjIzquierda":"1",
 			"texto":"Señor Greg, por favor, cuénteme qué pasó aquella noche."

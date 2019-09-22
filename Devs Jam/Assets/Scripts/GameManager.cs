@@ -123,4 +123,9 @@ public class GameManager : MonoBehaviour
     {
         LoadScene("Dialogo");
     }
+
+    public void pasarDia()
+    {
+        //Pasar el dia
+    }
 }

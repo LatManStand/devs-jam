@@ -16,13 +16,13 @@ public class PlayerController : MonoBehaviour
     {
         if (Input.anyKey)
         {
-            if (Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow))
+            if ((Input.GetKey(KeyCode.A) || Input.GetKey(KeyCode.LeftArrow)) && gameObject.transform.position.x >-10.5) 
             {
                 spr.flipX = true;
                 this.gameObject.transform.position += new Vector3(-2, 0, 0) * Time.deltaTime;
             }
 
-            if (Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow))
+            if ((Input.GetKey(KeyCode.D) || Input.GetKey(KeyCode.RightArrow)) && gameObject.transform.position.x < 10.5)
             {
                 spr.flipX = false;
                 this.gameObject.transform.position += new Vector3(2, 0, 0) * Time.deltaTime;

@@ -18,7 +18,14 @@ public class Bocadillo : MonoBehaviour
 
     public void muestra()
     {
-        mio.color = new Color(1.0f, 1.0f, 1.0f, 1.0f);
+        if (mio == null)
+        {
+            mio = gameObject.GetComponent<SpriteRenderer>();
+        }
+        if (texto == null)
+        {
+            texto = transform.GetChild(0).gameObject.GetComponent<MeshRenderer>();
+        }
         mio.enabled = true;
         texto.enabled = true;
         StopCoroutine(tiempo());
@@ -26,12 +33,28 @@ public class Bocadillo : MonoBehaviour
 
     public void esconde()
     {
+        if (mio == null)
+        {
+            mio = gameObject.GetComponent<SpriteRenderer>();
+        }
+        if (texto == null)
+        {
+            texto = transform.GetChild(0).gameObject.GetComponent<MeshRenderer>();
+        }
         mio.enabled = false;
         texto.enabled = false;
     }
 
     public void actua()
     {
+        if (mio == null)
+        {
+            mio = gameObject.GetComponent<SpriteRenderer>();
+        }
+        if (texto == null)
+        {
+            texto = transform.GetChild(0).gameObject.GetComponent<MeshRenderer>();
+        }
         mio.enabled = !mio.enabled;
         texto.enabled = !texto.enabled;
         StartCoroutine(tiempo());

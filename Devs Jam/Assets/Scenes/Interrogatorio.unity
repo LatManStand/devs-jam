@@ -203,6 +203,12 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 0
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!1 &634089459 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 3055860354995516150, guid: 29423bcc4d6ef1f458011d683a3b3151,
+    type: 3}
+  m_PrefabInstance: {fileID: 3055860353411225676}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1447510210 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 3487362363498044836, guid: 29423bcc4d6ef1f458011d683a3b3151,
@@ -480,7 +486,17 @@ PrefabInstance:
     - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
       propertyPath: nombreDialogo
-      value: Caso0-Greg
+      value: C0D1-Greg
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: canvas
+      value: 
+      objectReference: {fileID: 634089459}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: countdownValue
+      value: 1.4
       objectReference: {fileID: 0}
     - target: {fileID: 3487362362612042669, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}

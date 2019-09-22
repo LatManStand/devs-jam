@@ -1,0 +1,77 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Buenas Rick, hoy se te ha asignado un nuevo caso. Un asesinato. Ocurrió la pasada fiesta que se celebró en el campus de Stonewall."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Un muchacho supuestamente mató a su compañero por un asunto de drogas. Lo único que encontramos fue una pulsera suya y restos de sangre."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"No se ha encontrado el objeto con el que lo mataron. Además faltan material caro del aula. Puede que fuera algún robo que salió mal."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Le recuerdo que hoy entra el nuevo sistema legal. ¿Se lo ha estudiado?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Vagamente, señor..."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"..."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Se lo recordaré. Pero será la última vez que lo haga."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Debido a que hay muchos casos y los juzgados están completamente colapsados, algunos agentes escogidos al azar tendrán el poder de llevar un caso entero ellos."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Éstos tendrán que investigar el caso con una valoración: culpable o inocente. Tendrá tres días para investigar o interrogar a los sospechosos."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Al finalizar el tercer día tendrá que aportar las pruebas que vea necesario y su valoración final. Dicha valoración hará que el acusado sea llevado a la cárcel o no."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Sea consecuente y esmérese. Lleva dando tumbos demasiado tiempo."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Lo que usted diga, señor. Lo tendré en cuenta, señor."
+		}
+	]
+}
+

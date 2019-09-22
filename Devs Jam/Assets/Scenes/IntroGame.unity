@@ -580,7 +580,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "Ninguna historia est\xE1 basadas en hechos reales..."
+  m_Text: "Ninguna historia est\xE1 basada en hechos reales..."
 --- !u!222 &1937028432
 CanvasRenderer:
   m_ObjectHideFlags: 0
