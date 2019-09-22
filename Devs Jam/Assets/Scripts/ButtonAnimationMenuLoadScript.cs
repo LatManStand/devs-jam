@@ -10,6 +10,11 @@ public class ButtonAnimationMenuLoadScript : MonoBehaviour
     public GameObject barra2;
     public Text texto1;
     public Text texto2;
+    [Space(5)]
+    public Sprite image1;
+    public Sprite image2;
+    public Sprite image3;
+    public GameObject imageSlot;
 
     private void Start()
     {
@@ -22,12 +27,15 @@ public class ButtonAnimationMenuLoadScript : MonoBehaviour
             {
                 case 1:
                     texto1.text = "Caso 1: Greg y el robo";
+                    imageSlot.GetComponent<Image>().sprite = image1;
                     break;
                 case 2:
                     texto1.text = "Caso 2: Tonny y la violación";
+                    imageSlot.GetComponent<Image>().sprite = image2;
                     break;
                 case 3:
                     texto1.text = "Caso 3: Salvino";
+                    imageSlot.GetComponent<Image>().sprite = image3;
                     break;
             }
             texto2.text = "Día " + GameManager.instance.getDiaPartidaGuardada(slot);
