@@ -31,8 +31,6 @@ public class OficinaManager : MonoBehaviour
     [Space(5)]
     [InspectorName("Carpeta")]
     public GameObject Carpeta;
-    public GameObject Hoja1;
-    public GameObject Hoja2;
     public GameObject Icono;
     public GameObject Clip;
     public GameObject Hoja1Int;
@@ -107,8 +105,6 @@ public class OficinaManager : MonoBehaviour
     public void ActivarCarpeta()
     {
         Carpeta.SetActive(true);
-        Hoja1.SetActive(true);
-        Hoja2.SetActive(true);
         Icono.SetActive(true);
         Clip.SetActive(true);
     }
