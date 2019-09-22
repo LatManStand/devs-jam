@@ -95,11 +95,12 @@ public class GameManager : MonoBehaviour
     public void aumentarDia()
     {
         numDia++;
-        if(numDia >= 3)
-        {
-            numCaso++;
-            numDia = 0;
-        }
+    }
+
+    public void cambiarCaso()
+    {
+        numCaso++;
+        numDia = 0;
     }
 
 

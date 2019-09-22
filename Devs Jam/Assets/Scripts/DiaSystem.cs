@@ -13,9 +13,19 @@ public class DiaSystem : MonoBehaviour
     {
         if (!GameManager.instance.getIsCargarPartida())
         {
-            Debug.Log("Aumentamos el día");
-            GameManager.instance.aumentarDia();
-            GameManager.instance.SaveData();
+            if(GameManager.instance.getDia() >= 3)
+            {
+                //Cambiamos de caso
+                Debug.Log("Cambiamos de caso");
+                GameManager.instance.cambiarCaso();
+                GameManager.instance.LoadScene("IntroCaso");
+            }
+            else
+            {
+                Debug.Log("Aumentamos el día");
+                GameManager.instance.aumentarDia();
+                GameManager.instance.SaveData();
+            }
         }
         titulo.GetComponent<Text>().text = "Día " + GameManager.instance.getDia();
         StartCoroutine(Animation());
