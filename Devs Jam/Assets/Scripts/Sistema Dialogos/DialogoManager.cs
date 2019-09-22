@@ -135,6 +135,7 @@ public class DialogoManager : MonoBehaviour
     {
         int numCaso = GameManager.instance.getNumCaso();
         int numDia = GameManager.instance.getDia();
+        Debug.Log(pathTexto + numCaso + "/C" + numCaso + "D" + numDia + nombreDialogo);
         var jsonModulos = Resources.Load<TextAsset>(pathTexto + numCaso + "/C" + numCaso + "D" + numDia + nombreDialogo);
         info = JsonUtility.FromJson<DialogoEntrePersonajes>(jsonModulos.ToString());
     }

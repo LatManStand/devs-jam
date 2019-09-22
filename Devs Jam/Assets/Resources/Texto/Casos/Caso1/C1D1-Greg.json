@@ -8,7 +8,7 @@
 		},
 		{
 			"nombrePJ":"GREG",
-			"interrumpido":"1",
+			"interrumpido":"0",
 			"pjIzquierda":"0",
 			"texto":"SÍ SEÑOR POLICÍA LO JURO YO NO LO HICE SOLO FUI AL BAÑO Y ME ENCONTRÉ A MI MEJOR AMIGO TIRADO EN EL SUELO Y..."
 		},
@@ -26,7 +26,7 @@
 		},
 		{
 			"nombrePJ":"RICK FOX",
-			"interrumpido":"1",
+			"interrumpido":"0",
 			"pjIzquierda":"1",
 			"texto":"Bien entonces, se encontrará familiarizado con que lo mejor que puede hacer es cooperar. Si realmente es inocente sabrá qué..."
 		},
@@ -40,13 +40,121 @@
 			"nombrePJ":"RICK FOX",
 			"interrumpido":"0",
 			"pjIzquierda":"1",
-			"texto":"Señor Greg, por favor, cuénteme qué pasó aquella noche."
+			"texto":"Señor Greg, por favor, cálmese. Cuénteme qué pasó aquella noche."
 		},
 		{
 			"nombrePJ":"GREG",
 			"interrumpido":"0",
 			"pjIzquierda":"0",
-			"texto":"Ajiá"
+			"texto":"Yo… eh.. a ver… yo… yo quedé con él y con mi mejor amiga Selena para ir a la fiesta. "
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Y bueno… nuestro objetivo era emborracharnos y pasarlo guay..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(Este chico es un poco incompetente. Iré al grano)"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Si su objetivo era pasarlo bien, ¿también incluía robar el material del aula?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Su amigo tenía la llave, ¿verdad? Se la podría haber pedido. ¿Por qué entrar por la ventana?"
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¿CÓMO? YO NO HE ROBADO NADA."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Bueno, aquí en el informe pone que falta material escolar importante. "
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"No, no, no. Debe ser un error. ¿Para qué iba a querer robarlo? Si ni sé para qué sirve la mitad de las cosas."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Quizás debía dinero. Tengo entendido que le gusta jugar con la hierba."
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Podré ser fumeta, vago y tonto; pero JAMÁS robaría, y menos aún, mataria a mi mejor amigo..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Greg, cuénteme qué ocurrió aquella noche. "
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Bueno… Me encontraba fuera con Selena y él. Bebimos mucho, y él fue el primero en ir al baño."
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Llevaba mucho tiempo sin ir así que decidí ir yo también y de paso veía por qué estaba tardando tanto"
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Ahí fue... cuando me lo encontré tirado en el suelo y..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Solo eso?"
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"NO HAY NADA MÁS QUE DECIR. YO NO HE HECHO NADA."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Vale, vale. No hace falta que se altere. Veré qué puedo encontrar."
+		},
+		{
+			"nombrePJ":"GREG",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Señor agente... Yo no... Yo no le maté..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(Ojalá lo seas, chico. Ojalá lo seas)"
 		}
 	]
 }

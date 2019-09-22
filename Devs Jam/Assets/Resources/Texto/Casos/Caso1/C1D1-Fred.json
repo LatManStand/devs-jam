@@ -1,0 +1,83 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Buenas, Fred. Fuiste tú el que llegó primero al suceso, ¿verdad?"
+		},
+		{
+			"nombrePJ":"FRED",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Emm... sí."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Tranquilo esto es un mero trámite. Tan solo tienes que contarme qué es lo que viste."
+		},
+		{
+			"nombrePJ":"FRED",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Per-per-perdón es que estoy algo nervioso. Nunca he estado en esta situación. "
+		},
+		{
+			"nombrePJ":"FRED",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Lo único que vi fue a Greg tirado en el suelo junto a Andrew. Luego llegaron el director y la policía."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Greg y Andrew eran mejores amigos, ¿crees que pudo hacer eso?"
+		},
+		{
+			"nombrePJ":"FRED",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"N-n-no creo, señor. Siempre iban juntos a todos lados. Igual que la amiga esa. Eran inseparables."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Viste si se pelearon en algún momento recientemente?"
+		},
+		{
+			"nombrePJ":"FRED",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"To-to-todo estaba muy bien entre ellos. Bueno... en realidad no tanto."
+		},
+		{
+			"nombrePJ":"FRED",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Estaba ese alumno… Connor se llama. Han tenido alguna que otra pelea, pero nada más."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Algo más, Fred?"
+		},
+		{
+			"nombrePJ":"FRED",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"No, señor."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Muchas gracias por todo, puede marcharse."
+		}
+	]
+}
+

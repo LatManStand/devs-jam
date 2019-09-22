@@ -8,7 +8,7 @@
 		},
 		{
 			"nombrePJ":"LOLI",
-			"interrumpido":"1",
+			"interrumpido":"0",
 			"pjIzquierda":"0",
 			"texto":"Marchaando, Rick! ¿Todo bien con la pequeña Lili?"
 		},
@@ -32,7 +32,7 @@
 		},
 		{
 			"nombrePJ":"LOLI",
-			"interrumpido":"1",
+			"interrumpido":"0",
 			"pjIzquierda":"0",
 			"texto":"Bueno yo es que no me lo creo, ya sabes, lo que va diciendo la gente por ahí, pero una amiga de una amiga de una amiga me comentó que..."
 		},
@@ -50,7 +50,7 @@
 		},
 		{
 			"nombrePJ":"LOLI",
-			"interrumpido":"1",
+			"interrumpido":"0",
 			"pjIzquierda":"0",
 			"texto":"Siempre es bueno que luego se van contando cosas que no son verdad y ..."
 		},

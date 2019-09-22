@@ -1,0 +1,107 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Buenas, Selena. Andrew y Greg eran tus mejores amigos, ¿verdad?"
+		},
+		{
+			"nombrePJ":"SELENA",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Sí..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Tienes alguna idea de cómo es posible que acabara en un homicidio?"
+		},
+		{
+			"nombrePJ":"SELENA",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Pues… no lo sé. Se lo juro, señor, es imposible que Greg hiciera eso."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Pero allí estaba, cubierto de sangre y con pruebas que lo relacionan. "
+		},
+		{
+			"nombrePJ":"SELENA",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Aún así, se lo juro. Es imposible que lo hiciera. Además, se fue y en nada ocurrió eso. No le dio tiempo."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Cuéntame Selena, ya que estamos. ¿Qué pasó aquella noche?"
+		},
+		{
+			"nombrePJ":"SELENA",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Estábamos tomandonos un par de copas en nuestro lugar de siempre… Andrew salió a mear."
+		},
+		{
+			"nombrePJ":"SELENA",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"A los 15 minutos o así, salió Greg. A los pocos minuto saltaron las alarmas. Es imposible que lo hiciera…"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Algo más sobre aquella noche? ¿Alguna pista que pueda demostrar que no fue él?"
+		},
+		{
+			"nombrePJ":"SELENA",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Bueno… Está Connor Watts. Lleva detrás de mí varios meses y cada vez se está volviendo más insoportable. "
+		},
+		{
+			"nombrePJ":"SELENA",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"No lanzó un par de pullas esa noche, pero nada más."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Qué clase de pullas?"
+		},
+		{
+			"nombrePJ":"SELENA",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Fueron más bien a Greg. Tipo “estás acabado drogata de mierda” y esas cosas."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Algo más?"
+		},
+		{
+			"nombrePJ":"SELENA",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"No, señor..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Muchas gracias por su cooperación."
+		}
+	]
+}
+
