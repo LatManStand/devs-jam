@@ -7,6 +7,10 @@ public class OficinaManager : MonoBehaviour
     public GameObject background;
 
     [Space(5)]
+    public GameObject button1;
+    public GameObject button2;
+
+    [Space(5)]
     [InspectorName("Interrogar")]
     public GameObject caso1Int;
     public GameObject caso2Int;
@@ -33,7 +37,40 @@ public class OficinaManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        button1.SetActive(true);
+        button2.SetActive(false);
         ActivarCarpeta();
+        if (GameManager.instance.getNumCaso() == 1)
+        {
+            caso1Int.SetActive(true);
+            caso2Int.SetActive(false);
+            caso3Int.SetActive(false);
+
+            caso1Int.SetActive(true);
+            caso2Int.SetActive(false);
+            caso3Int.SetActive(false);
+        }
+        else if (GameManager.instance.getNumCaso() == 1)
+        {
+            caso1Int.SetActive(false);
+            caso2Int.SetActive(true);
+            caso3Int.SetActive(false);
+
+            caso1Int.SetActive(false);
+            caso2Int.SetActive(true);
+            caso3Int.SetActive(false);
+        }
+        else
+        {
+            caso1Int.SetActive(false);
+            caso2Int.SetActive(false);
+            caso3Int.SetActive(true);
+
+            caso1Int.SetActive(false);
+            caso2Int.SetActive(false);
+            caso3Int.SetActive(true);
+        }
+
         if (GameManager.instance.getDia() == 1)
         {
             Hoja1Int.SetActive(true);
@@ -41,15 +78,17 @@ public class OficinaManager : MonoBehaviour
             Hoja2Inv.SetActive(false);
             Hoja1Inv.SetActive(false);
         }
+        else if(GameManager.instance.getDia() == 2)
+        {
+            Hoja1Int.SetActive(false);
+            Hoja2Int.SetActive(false);
+            Hoja2Inv.SetActive(true);
+            Hoja1Inv.SetActive(true);
+        }
         else
         {
-            if(GameManager.instance.getDia() == 2)
-            {
-                Hoja1Int.SetActive(false);
-                Hoja2Int.SetActive(false);
-                Hoja2Inv.SetActive(true);
-                Hoja1Inv.SetActive(true);
-            }
+            button1.SetActive(false);
+            button2.SetActive(true);
         }
     }
 
@@ -65,5 +104,11 @@ public class OficinaManager : MonoBehaviour
     public void CargarEscena(string nombre)
     {
         GameManager.instance.LoadScene(nombre);
+    }
+
+    public void pasar()
+    {
+        GameManager.instance.pasarDia();
+
     }
 }

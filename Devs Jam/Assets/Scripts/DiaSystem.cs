@@ -28,6 +28,10 @@ public class DiaSystem : MonoBehaviour
                 GameManager.instance.SaveData();
             }
         }
+        else
+        {
+            GameManager.instance.setIsCargarPartida(false);
+        }
         titulo.GetComponent<Text>().text = "Día " + GameManager.instance.getDia();
         StartCoroutine(Animation());
     }
@@ -36,7 +40,7 @@ public class DiaSystem : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         titulo.SetActive(true);
-        yield return new WaitForSeconds(3.7f);
+        yield return new WaitForSeconds(2.2f);
         titulo.SetActive(false);
         yield return new WaitForSeconds(0.5f);
 

@@ -13,13 +13,13 @@ public class GameManager : MonoBehaviour
     private int numCaso;
     private int numDia;
     //Caso 1
-    private bool tienePistaBedel;
+    private bool culpableGreg;
 
     //Caso 2
-    //Nada porque se lo comenta la hija
+    private bool culpableTonny;
 
     //Caso 3
-    private bool encerroSalvino;
+    private bool culpableSalvino;
 
     //Para el menu principal
     private bool isCargarPartida;
@@ -82,14 +82,32 @@ public class GameManager : MonoBehaviour
         return numDia;
     }
 
-    public bool tienePistaCaso1()
+    public bool getculpableGreg()
     {
-        return tienePistaBedel;
+        return culpableGreg;
+    }
+    public bool getculpableTonny()
+    {
+        return culpableTonny;
     }
 
     public bool getFinal()
     {
-        return encerroSalvino;
+        return culpableSalvino;
+    }
+
+    public void setculpableGreg(bool value)
+    {
+        culpableGreg = value;
+    }
+    public void setculpableTonny(bool value)
+    {
+        culpableTonny = value;
+    }
+
+    public void setFinal(bool value)
+    {
+        culpableSalvino = value;
     }
 
     public void aumentarDia()
@@ -111,8 +129,9 @@ public class GameManager : MonoBehaviour
         slot = _slot;
         numCaso = 1;
         numDia = 0;
-        tienePistaBedel = false;
-        encerroSalvino = false;
+        culpableGreg = false;
+        culpableTonny = false;
+        culpableSalvino = false;
 
         SaveData();
 
@@ -145,6 +164,38 @@ public class GameManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("numCaso" + slot, numCaso);
         PlayerPrefs.SetInt("numDia" + slot, numDia);
+
+        if (culpableGreg)
+        {
+            PlayerPrefs.SetInt("culpableGreg" + slot, 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("culpableGreg" + slot, 0);
+        }
+
+        if (culpableTonny)
+        {
+            PlayerPrefs.SetInt("culpableTonny" + slot, 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("culpableTonny" + slot, 0);
+        }
+
+        if (culpableSalvino)
+        {
+            PlayerPrefs.SetInt("culpableSalvino" + slot, 1);
+        }
+        else
+        {
+            PlayerPrefs.SetInt("culpableSalvino" + slot, 0);
+        }
+
+
+        PlayerPrefs.SetInt("numCaso" + slot, numCaso);
+        PlayerPrefs.SetInt("numDia" + slot, numDia);
+
         PlayerPrefs.Save();
     }
 
@@ -153,6 +204,33 @@ public class GameManager : MonoBehaviour
         slot = _slot;
         numCaso = PlayerPrefs.GetInt("numCaso" + slot);
         numDia = PlayerPrefs.GetInt("numDia" + slot);
+
+        if (PlayerPrefs.GetInt("culpableGreg" + slot) == 1)
+        {
+            culpableGreg = true;
+        }
+        else
+        {
+            culpableGreg = false;
+        }
+
+        if (PlayerPrefs.GetInt("culpableTonny" + slot) == 1)
+        {
+            culpableTonny = true;
+        }
+        else
+        {
+            culpableTonny = false;
+        }
+
+        if (PlayerPrefs.GetInt("culpableSalvino" + slot) == 1)
+        {
+            culpableSalvino = true;
+        }
+        else
+        {
+            culpableSalvino = false;
+        }
     }
 
     public int existeSlotPartidaGuardada(int _slot)
@@ -162,7 +240,7 @@ public class GameManager : MonoBehaviour
 
     public int getDiaPartidaGuardada(int _slot)
     {
-        return PlayerPrefs.GetInt("numDia" + slot);
+        return PlayerPrefs.GetInt("numDia" + _slot);
     }
 
     public void loadDialogo()

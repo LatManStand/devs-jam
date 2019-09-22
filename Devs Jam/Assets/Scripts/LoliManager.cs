@@ -19,7 +19,7 @@ public class LoliManager : MonoBehaviour
     {
         yield return new WaitForSeconds(0.3f);
         titulo.SetActive(true);
-        yield return new WaitForSeconds(3.7f);
+        yield return new WaitForSeconds(2.3f);
         titulo.SetActive(false);
         conversacion.SetActive(true);
     }
