@@ -65,4 +65,13 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Interrogar/Caso2/Tonny.unity
     guid: 301dd51808953164abc0af51d67d71bb
+  - enabled: 1
+    path: Assets/Scenes/Investigar/Campus.unity
+    guid: 51fafb54b9a3fcc4aad6b749e239de4f
+  - enabled: 1
+    path: Assets/Scenes/Investigar/Colegio.unity
+    guid: 6d899cb79f1a7c4489082e331d038bb9
+  - enabled: 1
+    path: Assets/Scenes/Investigar/Restaurante.unity
+    guid: 13ed611807dfc964ab97c401388f533f
   m_configObjects: {}
