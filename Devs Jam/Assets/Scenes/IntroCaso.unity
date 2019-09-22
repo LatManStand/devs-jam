@@ -451,6 +451,11 @@ PrefabInstance:
       propertyPath: audio
       value: 
       objectReference: {fileID: 0}
+    - target: {fileID: 1626617380940794067, guid: 9c777aa6ed194464e821c43be8b5b665,
+        type: 3}
+      propertyPath: siguienteEscena
+      value: EscenaDia
+      objectReference: {fileID: 0}
     - target: {fileID: 1132395983541404171, guid: 9c777aa6ed194464e821c43be8b5b665,
         type: 3}
       propertyPath: m_AnchoredPosition.y

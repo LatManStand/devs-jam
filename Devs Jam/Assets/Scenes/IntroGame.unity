@@ -163,6 +163,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 10ce2ebb9656cd44fb5db879cb29b8cb, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  siguienteEscena: IntroCaso
   titulo: {fileID: 1644743833}
   texto: {fileID: 1937028429}
 --- !u!1 &493113685

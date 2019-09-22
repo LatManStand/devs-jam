@@ -37,6 +37,4 @@ public class Puerta : MonoBehaviour
     {
         SceneManager.LoadScene(escena);
     }
-
-
 }

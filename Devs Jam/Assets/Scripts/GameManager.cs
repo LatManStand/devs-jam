@@ -11,11 +11,15 @@ public class GameManager : MonoBehaviour
     public static GameManager instance;
 
     private int numCaso;
+    private int numDia;
     //Caso 1
     private bool tienePistaBedel;
-    
-    //Caso 2
 
+    //Caso 2
+    //Nada porque se lo comenta la hija
+
+    //Caso 3
+    private bool encerroSalvino;
 
     //Awake is always called before any Start functions
     void Awake()
@@ -38,10 +42,6 @@ public class GameManager : MonoBehaviour
     // Start is called before the first frame update
     private void Start()
     {
-        //Call the InitGame function to initialize the first level 
-        InitGame();
-
-        LoadData();
     }
 
     // Update is called once per frame
@@ -60,24 +60,42 @@ public class GameManager : MonoBehaviour
     {
         return numCaso;
     }
-
-    //Called to start de game
-    public void InitGame()
+    public int getDia()
     {
+        return numDia;
     }
+
+    public bool tienePistaCaso1()
+    {
+        return tienePistaBedel;
+    }
+
+    public bool getFinal()
+    {
+        return encerroSalvino;
+    }
+
+    public void aumentarDia()
+    {
+        numDia++;
+        if(numDia >= 3)
+        {
+            numCaso++;
+            numDia = 0;
+        }
+    }
+
 
     //Called to start de game
     public void StartGame()
     {
         //Inicializamos los datos
         numCaso = 0;
+        numDia = 0;
+        tienePistaBedel = false;
+        encerroSalvino = false;
 
         LoadScene("IntroGame");
-    }
-
-    //Called when the player die
-    public void GameOver()
-    {
     }
 
     public void QuitGame()

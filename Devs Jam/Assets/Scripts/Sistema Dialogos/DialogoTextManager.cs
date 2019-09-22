@@ -6,6 +6,7 @@ using UnityEngine;
 
 public class DialogoTextManager : MonoBehaviour
 {
+    public string siguienteEscena;
     public GameObject buttonContinuar;
     public Text textoDialogo;
     public GameObject nombre1;
@@ -108,6 +109,6 @@ public class DialogoTextManager : MonoBehaviour
         aparecerIntro = false;
         textoTitulo.SetActive(false);
         yield return new WaitForSeconds(0.3f);
-        GameManager.instance.LoadScene("Interrogatorio");
+        GameManager.instance.LoadScene(siguienteEscena);
     }
 }

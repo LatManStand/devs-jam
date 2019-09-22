@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class IntroSystem : MonoBehaviour
 {
-
+    public string siguienteEscena;
     public GameObject titulo;
     public GameObject texto;
 
@@ -24,7 +24,7 @@ public class IntroSystem : MonoBehaviour
         yield return new WaitForSeconds(4f);
         titulo.SetActive(false);
         yield return new WaitForSeconds(0.5f);
-        GameManager.instance.LoadScene("IntroCaso");
+        GameManager.instance.LoadScene(siguienteEscena);
     }
 
     

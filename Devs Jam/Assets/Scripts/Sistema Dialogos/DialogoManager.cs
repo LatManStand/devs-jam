@@ -13,6 +13,7 @@ public struct DialogoBox
 
 public class DialogoManager : MonoBehaviour
 {
+    public string siguienteEscena;
     public Sprite nombrePJ1;
     public Sprite nombrePJ2;
     public GameObject GOPJ1;
@@ -67,13 +68,15 @@ public class DialogoManager : MonoBehaviour
 
     public void Continuar()
     {
-        if(posicionFrase >= info.Frases.Count)
+        posicionFrase++;
+        if (posicionFrase >= info.Frases.Count)
         {
-            //Fin dialogo;
+            //Fin dialogo
+            canvas.GetComponent<Canvas>().enabled = false;
+            NextEscena();
             return;
         }
 
-        posicionFrase++;
         //Cambiamos la imagen
         if (info.Frases[posicionFrase].pjIzquierda == 1)
         {
@@ -148,5 +151,10 @@ public class DialogoManager : MonoBehaviour
         Continuar();
         canvas.GetComponent<Canvas>().enabled = true;
         corutina = false;
+    }
+
+    void NextEscena()
+    {
+        GameManager.instance.LoadScene(siguienteEscena);
     }
 }
