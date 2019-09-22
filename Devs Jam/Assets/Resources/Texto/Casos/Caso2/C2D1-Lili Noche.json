@@ -4,49 +4,43 @@
 			"nombrePJ":"LILI",
 			"interrumpido":"0",
 			"pjIzquierda":"0",
-			"texto":"¡Papiiii!"
+			"texto":"Hola, papi..."
 		},
 		{
 			"nombrePJ":"RICK FOX",
 			"interrumpido":"0",
 			"pjIzquierda":"1",
-			"texto":"Buenas, pequeña. ¿Me has echado mucho de menos?"
+			"texto":"Buenas pequeña, ¿qué te pasa? ¿Estás bien?"
 		},
 		{
 			"nombrePJ":"LILI",
 			"interrumpido":"0",
 			"pjIzquierda":"0",
-			"texto":"¡Si!, además hoy ha sido un día muy aburrido. "
+			"texto":"Es Andrea... No ha venido a clase y nadie quiere decirme por qué."
 		},
 		{
 			"nombrePJ":"RICK FOX",
 			"interrumpido":"0",
 			"pjIzquierda":"1",
-			"texto":"Venga lávate las manos que vamos a hacer la cena."
+			"texto":"Eh, eh. Tranquila. Ven… seguro que no le habrá pasado nada malo."
 		},
 		{
 			"nombrePJ":"LILI",
 			"interrumpido":"0",
 			"pjIzquierda":"0",
-			"texto":"¿Qué cenamos hoy?"
+			"texto":"Espero que se encuentre bien, papi..."
 		},
 		{
 			"nombrePJ":"RICK FOX",
 			"interrumpido":"0",
 			"pjIzquierda":"1",
-			"texto":"Pizza."
-		},
-		{
-			"nombrePJ":"LILI",
-			"interrumpido":"0",
-			"pjIzquierda":"0",
-			"texto":"¿Pizza? Siiii"
-		},
+			"texto":"Seguro que sí, confía en mí."
+		}
 		{
 			"nombrePJ":"RICK FOX",
 			"interrumpido":"0",
 			"pjIzquierda":"1",
-			"texto":"(Eres increible, pequeña. Nunca dejes de volar)"
+			"texto":"(Ojalá no se encuentre demasiado mal después de lo que le ha pasado...)"
 		}
 	]
 }

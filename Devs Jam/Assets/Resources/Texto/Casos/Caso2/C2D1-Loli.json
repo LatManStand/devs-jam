@@ -1,0 +1,60 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Hey Loli, ponme un café para llevar, por favor."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¡Marchaando, Rick! ¿Te has enterado de lo que ocurrió en el colegio?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Cómo?"
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Al parecer una niña fue… violada, durante la fiesta del finde pasado..."
+
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿LA FIESTA A LA QUE LLEVÉ A LILI?"
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Sí, esa misma. No se sabe nada más, pensaba que tú te enterarias de algo."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Ya sabes... para tranquilizar al barrio..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(Con tus chismorreos, claro que sí)"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Intentaré enterarme de qué ha pasado."
+		}
+	]
+}
+

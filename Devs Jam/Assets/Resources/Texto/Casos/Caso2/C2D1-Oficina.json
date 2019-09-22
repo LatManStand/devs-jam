@@ -1,0 +1,52 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"El finde pasado se registró una violación en el colegio del barrio. La niña en cuestión se llama Andrea."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Se encontraba sola el observatorio. Según hemos podido confirmar, el loco de la capucha estaba por allí. "
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Andrea? No puede ser... ¿Y se refiere al señor mayor con sudadera?"
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Sí, el mismo. Los familiares últimamente que no se sienten seguros con ese hombre dando vueltas."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Me comentó Lili que siempre lo ve en el parque. Ese tipo siempre ha sido un poco extraño..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Está listo para interrogarlo, ¿verdad, señor?"
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Sí, está todo listo."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Perfecto. Veré que puedo hacer."
+		}
+	]
+}

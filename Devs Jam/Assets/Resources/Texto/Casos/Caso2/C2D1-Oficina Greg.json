@@ -1,0 +1,28 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Buenas, Rick. Gran trabajo el suyo al meter en la cárcel a un inocente."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Esperaba más de ti. Que no vuelva a suceder."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Pero señor todas las pruebas apuntaban a él..."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"No hay nada más que hablar, hay que resolver nuevos casos. Esmerate con éste."
+		}
+	]
+}

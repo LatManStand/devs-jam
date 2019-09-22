@@ -1,0 +1,22 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Buenas, Rick. Enorme trabajoque hizo con el caso del ladrón. Enhorabuena."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Muchas gracias, señor."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Bien, espero que lo haga igual de bien con este caso. Espero mucho de usted."
+		}
+	]
+}
