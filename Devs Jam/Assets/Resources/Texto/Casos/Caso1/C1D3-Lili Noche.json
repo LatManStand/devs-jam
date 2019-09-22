@@ -1,0 +1,53 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¡Papiiii!"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Buenas, pequeña. ¿Qué tal el día?"
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¡Bien! ¿Has encerrado a alguien hoy?."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Sí..."
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¿Y se lo merecía? ¿Era malo?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Eso creo... Ve a vestirte, hoy cenamos fuera."
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Siiii"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(Ojalá haya hecho lo correcto)"
+		}
+	]
+}
+
