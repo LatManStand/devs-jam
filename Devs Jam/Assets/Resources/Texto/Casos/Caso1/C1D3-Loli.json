@@ -1,0 +1,47 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Hey Loli, ponme un café para llevar, por favor."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¡Marchaando, Rick! ¿Todo bien con la pequeña Lili? ¿Alguna mascota nueva?"
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Me ha contado un pajarito que llevas el caso."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Lil, por favor..."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¡¿QUÉ?! ¿NI UN POQUITO?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Loli, no. Lo siento."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Bueno, toma tu café."
+		}
+	]
+}
+
