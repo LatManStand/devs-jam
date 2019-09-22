@@ -15,6 +15,8 @@ public class GameManager : MonoBehaviour
     //Caso 1
     private bool tienePistaBedel;
 
+    private int encerroGreg;
+
     //Caso 2
     //Nada porque se lo comenta la hija
 
@@ -86,6 +88,20 @@ public class GameManager : MonoBehaviour
     {
         return tienePistaBedel;
     }
+    
+    public void setGreg(int greg)
+    {
+        if (numCaso == 1 && numDia == 3)
+        {
+            encerroGreg = greg;
+        }
+    }
+
+
+    public int getGreg()
+    {
+        return encerroGreg;
+    }
 
     public bool getFinal()
     {
@@ -112,6 +128,7 @@ public class GameManager : MonoBehaviour
         numCaso = 1;
         numDia = 0;
         tienePistaBedel = false;
+        encerroGreg = -1;
         encerroSalvino = false;
 
         SaveData();
@@ -145,6 +162,7 @@ public class GameManager : MonoBehaviour
     {
         PlayerPrefs.SetInt("numCaso" + slot, numCaso);
         PlayerPrefs.SetInt("numDia" + slot, numDia);
+        PlayerPrefs.SetInt("encerroGreg" + slot, encerroGreg);
         PlayerPrefs.Save();
     }
 
@@ -153,6 +171,7 @@ public class GameManager : MonoBehaviour
         slot = _slot;
         numCaso = PlayerPrefs.GetInt("numCaso" + slot);
         numDia = PlayerPrefs.GetInt("numDia" + slot);
+        encerroGreg = PlayerPrefs.GetInt("encerroGreg" + slot);
     }
 
     public int existeSlotPartidaGuardada(int _slot)

@@ -6,8 +6,8 @@ public class MujereManager : MonoBehaviour
 {
     private GameObject converC1D1;
     private GameObject converC1D2;
-    private GameObject converC1D3;
-    private GameObject converC2D1;
+    private GameObject converC2D1a;
+    private GameObject converC2D1b;
     private GameObject converC2D2;
     private GameObject converC2D3;
     private GameObject converC3D1;
@@ -16,17 +16,17 @@ public class MujereManager : MonoBehaviour
     void Start()
     {
         converC1D1 = transform.GetChild(0).gameObject;
-        converC1D2 = transform.GetChild(0).gameObject;
-        converC1D3 = transform.GetChild(0).gameObject;
-        converC2D1 = transform.GetChild(0).gameObject;
-        converC2D2 = transform.GetChild(0).gameObject;
-        converC2D3 = transform.GetChild(0).gameObject;
-        converC1D1 = transform.GetChild(0).gameObject;
+        converC1D2 = transform.GetChild(1).gameObject;
+        converC2D1a = transform.GetChild(2).gameObject;
+        converC2D1b = transform.GetChild(3).gameObject;
+        converC2D2 = transform.GetChild(4).gameObject;
+        converC2D3 = transform.GetChild(5).gameObject;
+        converC1D1 = transform.GetChild(6).gameObject;
 
         converC1D1.SetActive(false);
         converC1D2.SetActive(false);
-        converC1D3.SetActive(false);
-        converC1D1.SetActive(false);
+        converC2D1a.SetActive(false);
+        converC2D1b.SetActive(false);
         converC2D2.SetActive(false);
         converC2D3.SetActive(false);
         converC3D1.SetActive(false);
@@ -39,18 +39,21 @@ public class MujereManager : MonoBehaviour
             if (dia == 1)
             {
                 converC1D1.SetActive(true);
-            } else if(dia == 2)
-            {
-                converC1D2.SetActive(true);
             } else
             {
-                converC1D3.SetActive(true);
+                converC1D2.SetActive(true);
             }
         } else if (caso == 2)
         {
             if (dia == 1)
             {
-                converC2D1.SetActive(true);
+                if (true)
+                {
+                    converC2D1a.SetActive(true);
+                } else
+                {
+                    converC2D1b.SetActive(true);
+                }
             }
             else if (dia == 2)
             {
