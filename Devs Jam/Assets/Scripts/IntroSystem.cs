@@ -18,10 +18,10 @@ public class IntroSystem : MonoBehaviour
     {
         yield return new WaitForSeconds(0.4f);
         texto.SetActive(true);
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(3.8f);
         titulo.SetActive(true);
         texto.SetActive(false);
-        yield return new WaitForSeconds(3.7f);
+        yield return new WaitForSeconds(2.5f);
         titulo.SetActive(false);
         yield return new WaitForSeconds(0.5f);
         GameManager.instance.LoadScene(siguienteEscena);
