@@ -438,6 +438,26 @@ PrefabInstance:
       propertyPath: pathTexto
       value: Texto/Casos/Caso
       objectReference: {fileID: 0}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: nombreDialogo1
+      value: -Malo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: nombreDialogo2
+      value: -Malo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: nombreDialogo1Noche
+      value: -Malo
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: nombreDialogo2Director
+      value: -Malo
+      objectReference: {fileID: 0}
     - target: {fileID: 3487362362612042669, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
       propertyPath: m_RootOrder
