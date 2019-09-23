@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 1
+    path: Assets/Scenes/Menu Principal.unity
+    guid: 2cda990e2423bbf4892e6590ba056729
+  - enabled: 1
     path: Assets/Scenes/Creditos.unity
     guid: 519d5770f814e414399a213c92e058a4
   - enabled: 1
@@ -14,9 +17,6 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroGame.unity
     guid: 51d8e83f0ba17b14b934953a48cc056f
-  - enabled: 1
-    path: Assets/Scenes/Menu Principal.unity
-    guid: 2cda990e2423bbf4892e6590ba056729
   - enabled: 1
     path: Assets/Scenes/Oficina/Oficina.unity
     guid: 12c9557704b83bf40ae8b6f2d875585a
@@ -80,4 +80,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/Tutorial.unity
     guid: 155b109b8791ab64cb80a4188079276d
+  - enabled: 1
+    path: Assets/Scenes/Finales/FinalMalo.unity
+    guid: e003fe0de5fb0bb42948cebb37fe8f72
   m_configObjects: {}
