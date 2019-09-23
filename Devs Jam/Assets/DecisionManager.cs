@@ -9,12 +9,12 @@ public class DecisionManager : MonoBehaviour
         if(GameManager.instance.getNumCaso() == 1)
         {
             GameManager.instance.setculpableGreg(true);
-            GameManager.instance.pasarDia();
+            GameManager.instance.LoadScene("CasaNoche");
         }
         else if (GameManager.instance.getNumCaso() == 2)
         {
             GameManager.instance.setculpableTonny(true);
-            GameManager.instance.pasarDia();
+            GameManager.instance.LoadScene("CasaNoche");
         }
         else
         {
@@ -28,12 +28,12 @@ public class DecisionManager : MonoBehaviour
         if (GameManager.instance.getNumCaso() == 1)
         {
             GameManager.instance.setculpableGreg(false);
-            GameManager.instance.pasarDia();
+            GameManager.instance.LoadScene("CasaNoche");
         }
         else if (GameManager.instance.getNumCaso() == 2)
         {
             GameManager.instance.setculpableTonny(false);
-            GameManager.instance.pasarDia();
+            GameManager.instance.LoadScene("CasaNoche");
         }
         else
         {
