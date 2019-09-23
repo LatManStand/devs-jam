@@ -2217,7 +2217,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 0
     m_VerticalOverflow: 0
     m_LineSpacing: 1
-  m_Text: Button
+  m_Text: Salir
 --- !u!222 &608976497
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -3832,11 +3832,11 @@ RectTransform:
   m_Father: {fileID: 1165936058}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
-  m_AnchorMin: {x: 0.5, y: 0.5}
-  m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: 0, y: 0}
-  m_SizeDelta: {x: 160, y: 30}
-  m_Pivot: {x: 0.5, y: 0.5}
+  m_AnchorMin: {x: 1, y: 1}
+  m_AnchorMax: {x: 1, y: 1}
+  m_AnchoredPosition: {x: -15, y: -14}
+  m_SizeDelta: {x: 74.65, y: 30}
+  m_Pivot: {x: 1, y: 1}
 --- !u!114 &1079151295
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7877,7 +7877,7 @@ PrefabInstance:
     - target: {fileID: 3882829667240447460, guid: 434a6f1d97ccc8a4dbcc1cc21fb765e5,
         type: 3}
       propertyPath: m_LocalPosition.x
-      value: 13.53
+      value: 6.26
       objectReference: {fileID: 0}
     - target: {fileID: 3882829667240447460, guid: 434a6f1d97ccc8a4dbcc1cc21fb765e5,
         type: 3}
