@@ -3013,7 +3013,7 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: NOMBRE DEL JUEGO
+  m_Text: THE DETECTIVE FOX
 --- !u!222 &1261681581
 CanvasRenderer:
   m_ObjectHideFlags: 0
@@ -4148,6 +4148,10 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   numCaso: 0
   numDia: 0
+  culpableGreg: 0
+  encerroGreg: 0
+  culpableTonny: 0
+  culpableSalvino: 0
 --- !u!4 &1837759627
 Transform:
   m_ObjectHideFlags: 0
