@@ -258,6 +258,20 @@ public class GameManager : MonoBehaviour
 
     public void pasarDia()
     {
-        LoadScene("CasaNoche");
+        if (numDia == 3)
+        {
+            LoadScene("OficinaTomaDecision");
+        }
+        else
+        {
+            if(numCaso == 3)
+            {
+                LoadScene("OficinaTomaDecision");
+            }
+            else
+            {
+                LoadScene("CasaNoche");
+            }
+        }
     }
 }

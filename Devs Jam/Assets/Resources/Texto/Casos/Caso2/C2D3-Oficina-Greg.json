@@ -1,0 +1,76 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Señor, mi hija me informó de algo muy gordo."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¿Sobre el caso de la violación?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Sí. Mi hija me ha contado que Andrea le ha dicho, y solo a ella en secreto, que fue el director quién le hizo eso."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Bueno, fue en una nota escrita y no se la dió directamente, pero sé que lleva razón."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Está muy bloqueada, apenas le podemos sacar nada y es nuestra única pista."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¿Hay alguna prueba que lo incrimine? No sé si una nota nos servirá para encarcelarle..."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Además no sabemos si viene de ella directamente."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Se lo juro señor, por mi vida. Creo que ella lleva razón."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Mmm... Haga lo que usted vea Rick. Si cree que lleva razón deje a Tonny libre y culparemos al director de todo esto."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Gracias, señor. Espero no confundirme..."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Si lo hace, un inocente acabará en prisión."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Lo sé."
+		}
+	]
+}

@@ -1,0 +1,35 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Hola, papi..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Buenas pequeña, ¿qué tal el día?"
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Bueno..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Ven anda, dame un abrazo."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Todo saldrá bien."
+		}
+	]
+}
+

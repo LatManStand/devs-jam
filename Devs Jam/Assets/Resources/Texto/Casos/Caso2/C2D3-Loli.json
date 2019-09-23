@@ -1,0 +1,66 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Hey Loli, ponme un café para llevar, por favor."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¡Marchaando, Rick! Me ha contado un pajarito que llevas el caso."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Loli, es un asunto muy serio. La niña está muy afectada."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Ya sabes que todo el mundo confía en mí para tranquilizarles."
+
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(¿Todo el mundo?)"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Loli. No."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Bueno... Toma tu café."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Ya sabes... para tranquilizar al barrio..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(Con tus chismorreos, claro que sí)"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Intentaré enterarme de qué ha pasado."
+		}
+	]
+}
+

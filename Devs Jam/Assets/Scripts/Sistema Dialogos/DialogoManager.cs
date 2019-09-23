@@ -29,6 +29,10 @@ public class DialogoManager : MonoBehaviour
     public string nombreDialogo;
     public string nombreDialogo1;
     public string nombreDialogo2;
+
+    public string nombreDialogo1Noche;
+    public string nombreDialogo2Director;
+
     public bool finalMalo;
 
 
@@ -159,6 +163,22 @@ public class DialogoManager : MonoBehaviour
                 Debug.Log(pathTexto + numCaso + "/C" + numCaso + "D" + numDia + nombreDialogo2);
                 var jsonModulos = Resources.Load<TextAsset>(pathTexto + numCaso + "/C" + numCaso + "D" + numDia + nombreDialogo2);
                 info = JsonUtility.FromJson<DialogoEntrePersonajes>(jsonModulos.ToString());
+            }
+
+            if (GameManager.instance.getDia() == 3)
+            {
+                if (GameManager.instance.getculpableTonny())
+                {
+                    Debug.Log(pathTexto + numCaso + "/C" + numCaso + "D" + numDia + nombreDialogo1);
+                    var jsonModulos = Resources.Load<TextAsset>(pathTexto + numCaso + "/C" + numCaso + "D" + numDia + nombreDialogo1Noche);
+                    info = JsonUtility.FromJson<DialogoEntrePersonajes>(jsonModulos.ToString());
+                }
+                else
+                {
+                    Debug.Log(pathTexto + numCaso + "/C" + numCaso + "D" + numDia + nombreDialogo1);
+                    var jsonModulos = Resources.Load<TextAsset>(pathTexto + numCaso + "/C" + numCaso + "D" + numDia + nombreDialogo2Director);
+                    info = JsonUtility.FromJson<DialogoEntrePersonajes>(jsonModulos.ToString());
+                }
             }
         }
         else if (GameManager.instance.getNumCaso() == 3)
