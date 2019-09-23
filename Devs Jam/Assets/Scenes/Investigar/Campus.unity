@@ -1592,7 +1592,7 @@ PrefabInstance:
         type: 3}
       propertyPath: nombrePJ2
       value: 
-      objectReference: {fileID: 21300000, guid: bab9ceb151c721b41ab718a072fbb844,
+      objectReference: {fileID: 21300000, guid: 55386d9d4d431874fa0ed95308c99296,
         type: 3}
     - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
@@ -1607,7 +1607,7 @@ PrefabInstance:
     - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
       propertyPath: siguienteEscena
-      value: Mundo
+      value: 
       objectReference: {fileID: 0}
     - target: {fileID: 3487362362612042669, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}

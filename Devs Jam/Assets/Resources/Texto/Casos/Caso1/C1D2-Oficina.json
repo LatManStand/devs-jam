@@ -1,10 +1,10 @@
 {
 	"Frases":[
 		{
-			"nombrePJ":"JEFE",
+			"nombrePJ":"RICK FOX",
 			"interrumpido":"0",
-			"pjIzquierda":"0",
-			"texto":"(Deber√≠a visitar el campus)"
+			"pjIzquierda":"1",
+			"texto":"(DeberÕa visitar el campus)"
 		}
 	]
 }
