@@ -103,7 +103,7 @@ public class DialogoTextManager : MonoBehaviour
 
     IEnumerator loadNextScenne()
     {
-        yield return new WaitForSeconds(4.3f);
+        yield return new WaitForSeconds(4.1f);
         aparecerIntro = false;
         textoTitulo.SetActive(false);
         yield return new WaitForSeconds(0.3f);

@@ -23,4 +23,9 @@ public class RestauranteSystem : MonoBehaviour
         entrada.SetActive(true);
         callejon.SetActive(false);
     }
+
+    public void pasarDia()
+    {
+        GameManager.instance.pasarDia();
+    }
 }

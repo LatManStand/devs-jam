@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<< HEAD
 guid: 04d48eeff44c9a8418ad6bdb1025baec
+=======
+guid: bafc2271964f5f3448ce2ace5b321438
+>>>>>>> develop
 TextScriptImporter:
   externalObjects: {}
   userData: 

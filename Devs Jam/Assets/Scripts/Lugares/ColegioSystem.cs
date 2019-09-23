@@ -33,4 +33,9 @@ public class ColegioSystem : MonoBehaviour
         pasillo.SetActive(false);
         dire.SetActive(false);
     }
+
+    public void pasarDia()
+    {
+        GameManager.instance.pasarDia();
+    }
 }
