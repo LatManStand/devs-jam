@@ -20,16 +20,12 @@ public class MujereManager : MonoBehaviour
         converC2D1a = transform.GetChild(2).gameObject;
         converC2D1b = transform.GetChild(3).gameObject;
         converC2D2 = transform.GetChild(4).gameObject;
-        converC2D3 = transform.GetChild(5).gameObject;
-        converC1D1 = transform.GetChild(6).gameObject;
 
         converC1D1.SetActive(false);
         converC1D2.SetActive(false);
         converC2D1a.SetActive(false);
         converC2D1b.SetActive(false);
         converC2D2.SetActive(false);
-        converC2D3.SetActive(false);
-        converC3D1.SetActive(false);
 
         int caso = GameManager.instance.getNumCaso();
         int dia = GameManager.instance.getDia();
@@ -47,7 +43,7 @@ public class MujereManager : MonoBehaviour
         {
             if (dia == 1)
             {
-                if (true)
+                if (GameManager.instance.getculpableGreg())
                 {
                     converC2D1a.SetActive(true);
                 } else
@@ -55,18 +51,11 @@ public class MujereManager : MonoBehaviour
                     converC2D1b.SetActive(true);
                 }
             }
-            else if (dia == 2)
+            else
             {
                 converC2D2.SetActive(true);
             }
-            else
-            {
-                converC2D3.SetActive(true);
-            }
-        } else
-        {
-            converC3D1.SetActive(true);
-        }
+        } 
 
 
 

@@ -1,0 +1,29 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Rick… lamentablemente tiene nada más que el día de hoy para hacerlo todo."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Al final del día, tendrá que elegir si es culpable o no."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Usted también?. "
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Lo siento..."
+		}
+	]
+	
+}

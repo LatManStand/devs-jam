@@ -1,0 +1,47 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Papi... han venido policías a por el director... me has mentido"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Mentido, cariño?"
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Me prometiste que no se lo dirías a nadie..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Sí... Pero los mayores siempre rompemos nuestras promesas..."
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Lili? Espera ven aquí Lili. Ains... "
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(Ya lo entenderás cuando seas mayor...)"
+		}
+	]
+}
+

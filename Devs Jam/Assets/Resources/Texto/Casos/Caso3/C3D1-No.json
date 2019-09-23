@@ -1,0 +1,78 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Papi, ¿de verdad tenemos que irnos? Hay gente mala... pero también es un sitio bonito..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"No nos queda más remedio, peque. Había gente muy mala allí. Pero te prometo que a donde vayamos, será más feliz todo."
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¿Y habrá parques tan grandes como el que teníamos?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Y columpios tan grandes como casas."
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¡Yo quiero! ¿Y muchos niños de mi edad?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Tantos que no tendrás tiempo a hablar con todos."
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¿Y buenas pizzerías?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Las mejores, te lo prometo."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Recuerda, Lili, hacer lo que veas correcto y hacer el bien lo buenamente que puedas"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Y, lo más importante, ten claras tus prioridades. Y, por supuesto, sé feliz con los tuyos."
+
+		},
+		{
+			"nombrePJ":"LILI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¡Dices muchas cosas sin sentido!"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Lo sé cari, pero algún día lo entenderás. Algún día..."
+		}
+	]
+	
+}

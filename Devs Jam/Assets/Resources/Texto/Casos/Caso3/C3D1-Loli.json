@@ -1,0 +1,53 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Hey Loli, ponme un café para llevar, por favor."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Marchando, Rick"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Loli? ¿Estás bien?"
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Siempre te enteras tarde de las cosas. Hubo un tiroteo en el restaurante de Savino."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Será mejor que te andes con cuidado Rick, ese asunto es peligroso."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"No me han asignado el caso, Loli. Al menos aún no."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Ten cuidado igualmente. Estos días ha habido mucha tensión..."
+		},
+		{
+			"nombrePJ":"LOLI",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Cuidate, Loli."
+		}
+	]
+}
+

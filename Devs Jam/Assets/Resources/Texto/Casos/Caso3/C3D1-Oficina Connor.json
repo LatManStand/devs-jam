@@ -1,0 +1,64 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Hoy no podemos entrar en la valoración del último caso, ya que ayer se registró un tiroteo en el restaurante de Savino Di Bastonne."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Por lo visto, parece ser que fue una guerra de bandas. Han muerto 27 personas. Hay demasiada tensión en la calle."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Dios…. Señor, ¿tengo que ocuparme yo?"
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Alguien importante de arriba le quiere muerto. Así que sí, han ido directos a por usted cuando ha llegado este caso."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Bueno, la cuestión es que nos lo están poniendo difícil. "
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Apenas tenemos datos recabados, pero los informes apuntan sin dudarlo que Savino y su banda son los culpables."
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Algunos de nuestros hombres han recibido amenazas por ello..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"El mejor día de mi vida"
+		},
+		{
+			"nombrePJ":"JEFE",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Tienes a Savino esperándote aquí. No quería ir a la sala de interrogatorios."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Oh perfecto, el señor spaghetti no podía esperar."
+		}
+	]
+}

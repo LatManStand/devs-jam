@@ -1,0 +1,137 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Oh, Buenas, señor Savino. ¿No podía esperar en la sala de interrogatorios como todos? "
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Ay ay, señor Rick. Será mejor que deje el caso rápido, por el bien de todos."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Es una amenaza Savino? He oido que va amenazando por ahí a mi gente. "
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Es una recomendación del tuo amico Savino."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Qué ocurrió en el restaurante"
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Bueno, un problema. Con solución obviamente."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Un problema? ¿UN PROBLEMA? MURIÓ GENTE INOCENTE."
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Daños colaterales."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Quién fue el que disparó el arma?"
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"No vi ningún arma."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿No vio nada?"
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Sí, lo vi todo. Pero no hubo ninguna arma. "
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Savino, está a punto de entrar en la cárcel y no me va a dar ninguna lástima."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Repito, ¿quién disparó el arma?"
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Oh, la cárcel. Buen tema de conversación."
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Mire, se lo comento de forma fácil para que alguien como usted lo comprenda: "
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Si me mete en la cárcel, iremos a por su familia."
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Tenemos gente en todos lados, quién sabe si es su vecino, su amiga la del café o sus compañeros."
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Pero le aseguro que iremos a por usted. Oh bueno, sencillamente déjeme libre y le invitamos a una cena. ¿Qué le parece?"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Para eso quería hablarme en mi despacho, para que nadie lo escuchara?"
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Oh, querido Rick, aquí las paredes escuchan. Pero creo que usted no. Espero que elija sabiamente."
+		},
+		{
+			"nombrePJ":"SAVINO",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Ah, tiene hasta el final del día para decidir. Por lo visto se han acelerado las cosas, ¿no es así, jefe de policía?"
+		}
+	]
+	
+}
