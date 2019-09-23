@@ -19,7 +19,7 @@ public class DecisionManager : MonoBehaviour
         else
         {
             GameManager.instance.setFinal(true);
-            GameManager.instance.LoadScene("Final1");
+            GameManager.instance.LoadScene("FinalMalo");
         }
     }
 
@@ -38,7 +38,7 @@ public class DecisionManager : MonoBehaviour
         else
         {
             GameManager.instance.setFinal(false);
-            GameManager.instance.LoadScene("Final2");
+            GameManager.instance.LoadScene("FinalBueno");
         }
     }
 }

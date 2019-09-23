@@ -1018,6 +1018,16 @@ PrefabInstance:
       propertyPath: siguienteEscena
       value: OficinaCarpeta
       objectReference: {fileID: 0}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: nombreDialogo1
+      value: -Tonny
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: nombreDialogo2
+      value: -Tonny
+      objectReference: {fileID: 0}
     - target: {fileID: 3487362362612042669, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
       propertyPath: m_RootOrder

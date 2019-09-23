@@ -1024,6 +1024,16 @@ PrefabInstance:
       value: 
       objectReference: {fileID: 21300000, guid: 251e0cd4956dc504f8aaac20442ef4a4,
         type: 3}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: nombreDialogo1
+      value: -Selena
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: nombreDialogo2
+      value: -Selena
+      objectReference: {fileID: 0}
     - target: {fileID: 3487362362612042669, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
       propertyPath: m_RootOrder

@@ -13,15 +13,15 @@ public class GameManager : MonoBehaviour
     public int numCaso;
     public int numDia;
     //Caso 1
-    private bool culpableGreg;
+    public bool culpableGreg;
 
-    private int encerroGreg;
+    public int encerroGreg;
 
     //Caso 2
-    private bool culpableTonny;
+    public bool culpableTonny;
 
     //Caso 3
-    private bool culpableSalvino;
+    public bool culpableSalvino;
 
     //Para el menu principal
     private bool isCargarPartida;
@@ -143,7 +143,7 @@ public class GameManager : MonoBehaviour
 
         SaveData();
 
-        LoadScene("IntroGame");
+        LoadScene("Tutorial");
     }
 
     public void QuitGame()

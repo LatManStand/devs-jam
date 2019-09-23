@@ -79,6 +79,9 @@ public class OficinaManager : MonoBehaviour
             caso1Int.SetActive(false);
             caso2Int.SetActive(false);
             caso3Int.SetActive(true);
+
+            button1.SetActive(false);
+            button2.SetActive(true);
         }
 
         if (GameManager.instance.getDia() == 1)

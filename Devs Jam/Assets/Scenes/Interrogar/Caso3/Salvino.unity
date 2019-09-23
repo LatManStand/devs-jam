@@ -552,7 +552,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 55.999947, y: -42.000122}
+  m_AnchoredPosition: {x: 56, y: -42.000122}
   m_SizeDelta: {x: 136, y: 51.5}
   m_Pivot: {x: 0, y: 1}
 --- !u!1 &1032331612
@@ -1001,7 +1001,7 @@ PrefabInstance:
     - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
       propertyPath: nombreDialogo
-      value: -Salvino
+      value: -Savino1
       objectReference: {fileID: 0}
     - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
@@ -1017,6 +1017,16 @@ PrefabInstance:
         type: 3}
       propertyPath: siguienteEscena
       value: OficinaCarpeta
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: nombreDialogo1
+      value: -Savino1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3487362362612042666, guid: 29423bcc4d6ef1f458011d683a3b3151,
+        type: 3}
+      propertyPath: nombreDialogo2
+      value: -Savino1
       objectReference: {fileID: 0}
     - target: {fileID: 3487362362612042669, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
@@ -1041,7 +1051,7 @@ PrefabInstance:
     - target: {fileID: 3487362362696516487, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
       propertyPath: m_AnchoredPosition.x
-      value: 186
+      value: 144
       objectReference: {fileID: 0}
     - target: {fileID: 3487362363683810304, guid: 29423bcc4d6ef1f458011d683a3b3151,
         type: 3}
