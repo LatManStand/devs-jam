@@ -31,6 +31,7 @@ public class ConversacionMundo : MonoBehaviour
         {
             if (!activado)
             {
+                activado = true;
                 StartCoroutine(dialogo());
             }
         }
