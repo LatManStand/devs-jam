@@ -21,7 +21,7 @@ public class CreditosSystem : MonoBehaviour
     {
         yield return new WaitForSeconds(0.4f);
         texto.SetActive(true);
-        yield return new WaitForSeconds(25f);
+        yield return new WaitForSeconds(40f);
         texto.SetActive(false);
         button.SetActive(true);
         yield return new WaitForSeconds(2f);
