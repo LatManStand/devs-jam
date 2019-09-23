@@ -10,8 +10,8 @@ public class GameManager : MonoBehaviour
 {
     public static GameManager instance;
     private int slot;
-    private int numCaso;
-    private int numDia;
+    public int numCaso;
+    public int numDia;
     //Caso 1
     private bool culpableGreg;
 

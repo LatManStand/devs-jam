@@ -66,9 +66,6 @@ EditorBuildSettings:
     path: Assets/Scenes/Finales/FinalBueno.unity
     guid: 5567993640814e24ea6affae2cdc507a
   - enabled: 1
-    path: Assets/Scenes/Finales/FinalMalo.unity
-    guid: bfbcc4d56f4eb8f42894595e4f3c1a88
-  - enabled: 1
     path: Assets/Scenes/Casa/Casa.unity
     guid: d47c6f9f791077a4da8f21973a011725
   - enabled: 1
@@ -77,4 +74,7 @@ EditorBuildSettings:
   - enabled: 1
     path: Assets/Scenes/IntroCaso.unity
     guid: eb1b8fd5c1ce0b049972bb8c07791814
+  - enabled: 1
+    path: Assets/Scenes/Finales/Fin.unity
+    guid: c1f3e5cb2ac730245aa730ab15ad8156
   m_configObjects: {}

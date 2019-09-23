@@ -27,6 +27,7 @@ public class DialogoManager : MonoBehaviour
     private int posicionFrase;
     public string pathTexto = "Texto/Casos/Caso";
     public string nombreDialogo;
+    public bool finalMalo;
 
 
     // ------------------
@@ -38,6 +39,7 @@ public class DialogoManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        finalMalo = false;
         posicionFrase = -1;
 
         LoadJSON();
@@ -111,6 +113,12 @@ public class DialogoManager : MonoBehaviour
         corutina = true;
         buttonContinuar.SetActive(false);
         textoDialogo.text = "";
+
+        if (finalMalo)
+        {
+            //Añadir los sonidos del final malo
+        }
+
 
         foreach (char letra in texto.ToCharArray())
         {
