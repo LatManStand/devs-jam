@@ -1,0 +1,100 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Muy bien, Tonny. A estas alturas ya sabrá por qué está aquí."
+		},
+		{
+			"nombrePJ":"TONNY",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Sí."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Obviamente sabrá que mi función es intentar encontrar al culpable."
+		},
+		{
+			"nombrePJ":"TONNY",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Sí, lo sé"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Es usted muy escueto."
+		},
+		{
+			"nombrePJ":"TONNY",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Es posible"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(...)"
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Tonny, ¿dónde estuvo entre las 23:00 y las 00:00?"
+		},
+		{
+			"nombrePJ":"TONNY",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"En mi casa."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Hay alguien que pueda corroborarlo?"
+		},
+		{
+			"nombrePJ":"TONNY",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"No."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Se está dando cuenta que si no coopera irá a la cárcel, ¿verdad?"
+		},
+		{
+			"nombrePJ":"TONNY",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Todo el mundo quiere que me encierren. Qué más da ya."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Tonny, por favor… ¿Hay algo más que quiera añadir? ¿Algo que no lo incrimine?"
+		},
+		{
+			"nombrePJ":"TONNY",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"No."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Bien... se acabó por hoy."
+		}
+	]
+}

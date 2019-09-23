@@ -1,0 +1,76 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Buenas, señor director. ¿podría contarme qué es lo que pasó la noche del suceso?"
+		},
+		{
+			"nombrePJ":"DIRECTOR",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Pobre Andrea… Sí, por supuesto, agente, ojalá encierren rápidamente al culpable."
+		},
+		{
+			"nombrePJ":"DIRECTOR",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Yo me encontraba junto a los demás profesores en la entrega de premios."
+		},
+		{
+			"nombrePJ":"DIRECTOR",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Todo estaba muy animado. Al ser público, pues podía entrar cualquier persona. Incluido ese individuo..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Vió al señor Tonny entre la gente durante entrega de premios?"
+		},
+		{
+			"nombrePJ":"DIRECTOR",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"¿Al loco ese entre la gente? Já. Siempre está apartado y observando desde la lejanía."
+		},
+		{
+			"nombrePJ":"DIRECTOR",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Lleva haciendo eso desde hace ya mucho tiempo. Siempre ha sido una persona reservada, pero esto..."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"¿Entonces no hay nadie que me pueda asegurar qué hizo entre las 23:30 y las 00:00?"
+		},
+		{
+			"nombrePJ":"DIRECTOR",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Puedo poner la mano en el fuego a que nadie puede asegurarlo."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Bien, gracias."
+		},
+		{
+			"nombrePJ":"DIRECTOR",
+			"interrumpido":"0",
+			"pjIzquierda":"0",
+			"texto":"Espero que haya sido de utilidad. Ojalá encierren al loco ese."
+		},
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"(Esa buena presunción de inocencia...)"
+		}
+	]
+}
