@@ -471,10 +471,10 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0cd44c1031e13a943bb63640046fad76, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  m_UiScaleMode: 0
+  m_UiScaleMode: 1
   m_ReferencePixelsPerUnit: 100
   m_ScaleFactor: 1
-  m_ReferenceResolution: {x: 800, y: 600}
+  m_ReferenceResolution: {x: 1366, y: 768}
   m_ScreenMatchMode: 0
   m_MatchWidthOrHeight: 0
   m_PhysicalUnit: 3
@@ -951,14 +951,14 @@ MonoBehaviour:
     m_HorizontalOverflow: 1
     m_VerticalOverflow: 1
     m_LineSpacing: 1
-  m_Text: "CR\xC9DITOS\r\n\r\n\r\n-T\xCDTULO DEL JUEGO-\r\n\r\n\n\r\nTodos los elementos
+  m_Text: "CREDITOS\n\r\n\r\n-THE DETECTIVE FOX\r-\r\n\r\n\n\r\nTodos los elementos
     del juego, historia, dialogos, m\xFAsica y scripts se han \nrealizado entre los
     d\xEDas 16 y 23 de septiembre salvo los sonidos de \nefectos y la fuente utilizada.\r\n\r\n\n\r\nAPARTADO
     T\xC9CNICO\r\n\r\nGUION, HISTORIA Y DI\xC1LOGOS\r\n-Alejandro Gemas\r\n\r\n\r\nC\xD3DIGO
     Y PROGRAMACI\xD3N\r\n-Ra\xFAl\r Franc\xE9s\n-Alejandro Gemas\r\n\r\n\r\nAPARTADO
     ART\xCDSTICO\r\n\r\n\r\nM\xDASICA\r\n-Sara Garc\xEDa\r\n\r\n\r\nARTE\r\n-Lidia
     Troyano\r\n\r\n\r\nAGRADECIMIENTOS\r\n\r\nMil gracias a Spain Game Devs por organizar
-    este Game Jam\r\n\r\nY, sobretodo, a ti jugador por haber llegado hasta el final.
+    este Game Jam\r.\n\r\nY, sobretodo, a ti jugador por haber llegado hasta el final.
     \nMil gracias de coraz\xF3n de parte del equipo de desarrollo."
 --- !u!222 &2010869598
 CanvasRenderer:

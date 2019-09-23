@@ -54,9 +54,9 @@ public class OficinaManager : MonoBehaviour
             caso2Int.SetActive(false);
             caso3Int.SetActive(false);
 
-            caso1Int.SetActive(true);
-            caso2Int.SetActive(false);
-            caso3Int.SetActive(false);
+            caso1Inv.SetActive(true);
+            caso2Inv.SetActive(false);
+            caso3Inv.SetActive(false);
         }
         else if (GameManager.instance.getNumCaso() == 2)
         {
@@ -65,9 +65,9 @@ public class OficinaManager : MonoBehaviour
             caso2Int.SetActive(true);
             caso3Int.SetActive(false);
 
-            caso1Int.SetActive(false);
-            caso2Int.SetActive(true);
-            caso3Int.SetActive(false);
+            caso1Inv.SetActive(false);
+            caso2Inv.SetActive(true);
+            caso3Inv.SetActive(false);
         }
         else
         {
