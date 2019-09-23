@@ -1,0 +1,22 @@
+{
+	"Frases":[
+		{
+			"nombrePJ":"RICK FOX",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"No hay nadie... Solo esta nota"
+		},
+		{
+			"nombrePJ":"NOTA",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"La madre se ha negado rotundamente a que la niña haga cualquier tipo de declaración."
+		},
+		{
+			"nombrePJ":"NOTA",
+			"interrumpido":"0",
+			"pjIzquierda":"1",
+			"texto":"Lo único que declaran es que el que lo hizo llevaba una sudadera marrón."
+		}
+	]
+}
