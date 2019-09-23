@@ -21,7 +21,7 @@ public class IntroSystem : MonoBehaviour
         yield return new WaitForSeconds(4f);
         titulo.SetActive(true);
         texto.SetActive(false);
-        yield return new WaitForSeconds(4f);
+        yield return new WaitForSeconds(3.7f);
         titulo.SetActive(false);
         yield return new WaitForSeconds(0.5f);
         GameManager.instance.LoadScene(siguienteEscena);
