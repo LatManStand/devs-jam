@@ -157,6 +157,14 @@ public class DialogoManager : MonoBehaviour
 
     void NextEscena()
     {
-        GameManager.instance.LoadScene(siguienteEscena);
+        if (siguienteEscena != "")
+        {
+            GameManager.instance.LoadScene(siguienteEscena);
+        }
+    }
+
+    public void cambiarDialogo(string dialogo)
+    {
+        nombreDialogo = dialogo;
     }
 }

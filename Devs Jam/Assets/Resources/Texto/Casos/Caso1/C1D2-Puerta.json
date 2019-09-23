@@ -1,9 +1,9 @@
 {
 	"Frases":[
 		{
-			"nombrePJ":"JEFE",
+			"nombrePJ":"RICK FOX",
 			"interrumpido":"0",
-			"pjIzquierda":"0",
+			"pjIzquierda":"1",
 			"texto":"(Se abrió con una llave. ¿Por qué romper los cristales?)"
 		}
 	]
